@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GUI_QuanLyQuanAN": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}
