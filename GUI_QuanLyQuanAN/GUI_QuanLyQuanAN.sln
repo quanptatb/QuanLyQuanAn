@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO_QLQA", "DTO_QLQA\DTO_QL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTIL_QLQA", "UTIL_QLQA\UTIL_QLQA.csproj", "{D390C024-3D95-4F75-8C40-3D2BAF33EAB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_QLQA", "BLL_QLQA\BLL_QLQA.csproj", "{7653995D-F0FA-4C22-BDE5-312E98D4D167}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{D390C024-3D95-4F75-8C40-3D2BAF33EAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D390C024-3D95-4F75-8C40-3D2BAF33EAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D390C024-3D95-4F75-8C40-3D2BAF33EAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7653995D-F0FA-4C22-BDE5-312E98D4D167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7653995D-F0FA-4C22-BDE5-312E98D4D167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7653995D-F0FA-4C22-BDE5-312E98D4D167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7653995D-F0FA-4C22-BDE5-312E98D4D167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,3 +10,15 @@ D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn_Quan\GUI_QuanLyQu
 D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn_Quan\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\refint\DTO_QLQA.dll
 D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn_Quan\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\DTO_QLQA.pdb
 D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn_Quan\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\ref\DTO_QLQA.dll
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\bin\Debug\net8.0\DTO_QLQA.deps.json
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\bin\Debug\net8.0\DTO_QLQA.dll
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\bin\Debug\net8.0\DTO_QLQA.pdb
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\DTO_QLQA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\DTO_QLQA.AssemblyInfoInputs.cache
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\DTO_QLQA.AssemblyInfo.cs
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\DTO_QLQA.csproj.CoreCompileInputs.cache
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\DTO_QLQA.sourcelink.json
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\DTO_QLQA.dll
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\refint\DTO_QLQA.dll
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\DTO_QLQA.pdb
+D:\Work\Ky6\Block_2\PRO231\Project\ProQuanAn\quan\QuanLyQuanAn\GUI_QuanLyQuanAN\DTO_QLQA\obj\Debug\net8.0\ref\DTO_QLQA.dll

@@ -10,8 +10,12 @@ namespace DTO_QLQA
     {
         public string MaNguyenLieu { get; set; }
         public string TenNguyenLieu { get; set; }
+        public float SoLuong { get; set; }
+        public float DonGia { get; set; }
+        public DateTime NgayNhap { get; set; }
+        public DateTime NgayHetHan { get; set; }
+        public string XuatXu { get; set; }
         public string DonViTinh { get; set; }
-        public decimal SoLuongTon { get; set; }
-        public int? IdNhaCungCap { get; set; } // Có thể null
+        public string MaNhaCungCap { get; set; }
     }
 }
