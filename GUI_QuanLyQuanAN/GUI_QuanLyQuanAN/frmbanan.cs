@@ -17,15 +17,7 @@ namespace GUI_QuanLyQuanAN
             InitializeComponent();
         }
 
-        private void cuiButton8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ban1_MouseClick(object sender, MouseEventArgs e)
-        {
-
-        }
+       
 
         private void ban1_Click(object sender, EventArgs e)
         {

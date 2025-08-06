@@ -108,6 +108,7 @@
             dataGridViewCellStyle4.SelectionForeColor = Color.White;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
             uiDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            uiDataGridView1.RowHeadersWidth = 51;
             dataGridViewCellStyle5.BackColor = Color.White;
             dataGridViewCellStyle5.Font = new Font("Microsoft Sans Serif", 12F);
             uiDataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle5;
@@ -208,7 +209,7 @@
             txttimkiem.Name = "txttimkiem";
             txttimkiem.NormalImageTint = Color.White;
             txttimkiem.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txttimkiem.Padding = new Padding(15, 11, 15, 0);
+            txttimkiem.Padding = new Padding(18, 9, 18, 0);
             txttimkiem.PasswordChar = false;
             txttimkiem.PlaceholderColor = SystemColors.WindowText;
             txttimkiem.PlaceholderText = "";
@@ -218,8 +219,6 @@
             txttimkiem.Tag = "";
             txttimkiem.TextOffset = new Size(0, 0);
             txttimkiem.UnderlinedStyle = true;
-            txttimkiem.Enter += txttimkiem_Enter;
-            txttimkiem.Leave += cuiTextBox1_Leave;
             // 
             // cuiPanel1
             // 
@@ -319,7 +318,6 @@
             btnluuthaydoi.TabIndex = 10;
             btnluuthaydoi.TextAlignment = StringAlignment.Center;
             btnluuthaydoi.TextOffset = new Point(0, 0);
-            btnluuthaydoi.Click += cuiButton4_Click;
             // 
             // btnbothaydoi
             // 
@@ -378,7 +376,7 @@
             txtthoigiannau.Name = "txtthoigiannau";
             txtthoigiannau.NormalImageTint = Color.White;
             txtthoigiannau.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txtthoigiannau.Padding = new Padding(15, 10, 15, 0);
+            txtthoigiannau.Padding = new Padding(18, 8, 18, 0);
             txtthoigiannau.PasswordChar = false;
             txtthoigiannau.PlaceholderColor = SystemColors.WindowText;
             txtthoigiannau.PlaceholderText = "";
@@ -407,7 +405,7 @@
             txtgiamon.Name = "txtgiamon";
             txtgiamon.NormalImageTint = Color.White;
             txtgiamon.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txtgiamon.Padding = new Padding(15, 10, 15, 0);
+            txtgiamon.Padding = new Padding(18, 8, 18, 0);
             txtgiamon.PasswordChar = false;
             txtgiamon.PlaceholderColor = SystemColors.WindowText;
             txtgiamon.PlaceholderText = "";
@@ -436,7 +434,7 @@
             txttenmon.Name = "txttenmon";
             txttenmon.NormalImageTint = Color.White;
             txttenmon.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txttenmon.Padding = new Padding(15, 10, 15, 0);
+            txttenmon.Padding = new Padding(18, 8, 18, 0);
             txttenmon.PasswordChar = false;
             txttenmon.PlaceholderColor = SystemColors.WindowText;
             txttenmon.PlaceholderText = "";
@@ -445,7 +443,6 @@
             txttenmon.TabIndex = 6;
             txttenmon.TextOffset = new Size(0, 0);
             txttenmon.UnderlinedStyle = true;
-            txttenmon.ContentChanged += cuiTextBox3_ContentChanged;
             // 
             // txtmamon
             // 
@@ -466,7 +463,7 @@
             txtmamon.Name = "txtmamon";
             txtmamon.NormalImageTint = Color.White;
             txtmamon.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txtmamon.Padding = new Padding(15, 10, 15, 0);
+            txtmamon.Padding = new Padding(18, 8, 18, 0);
             txtmamon.PasswordChar = false;
             txtmamon.PlaceholderColor = SystemColors.WindowText;
             txtmamon.PlaceholderText = "";
@@ -482,7 +479,7 @@
             guna2HtmlLabel4.Font = new Font("Calibri", 12F, FontStyle.Italic);
             guna2HtmlLabel4.Location = new Point(190, 423);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(92, 21);
+            guna2HtmlLabel4.Size = new Size(114, 26);
             guna2HtmlLabel4.TabIndex = 4;
             guna2HtmlLabel4.Text = "Thời gian nấu";
             // 
@@ -492,7 +489,7 @@
             guna2HtmlLabel3.Font = new Font("Calibri", 12F, FontStyle.Italic);
             guna2HtmlLabel3.Location = new Point(26, 423);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(25, 21);
+            guna2HtmlLabel3.Size = new Size(31, 26);
             guna2HtmlLabel3.TabIndex = 3;
             guna2HtmlLabel3.Text = "Giá";
             // 
@@ -502,7 +499,7 @@
             guna2HtmlLabel2.Font = new Font("Calibri", 12F, FontStyle.Italic);
             guna2HtmlLabel2.Location = new Point(190, 329);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(60, 21);
+            guna2HtmlLabel2.Size = new Size(74, 26);
             guna2HtmlLabel2.TabIndex = 2;
             guna2HtmlLabel2.Text = "Tên món";
             // 
@@ -512,7 +509,7 @@
             guna2HtmlLabel1.Font = new Font("Calibri", 12F, FontStyle.Italic);
             guna2HtmlLabel1.Location = new Point(26, 329);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(58, 21);
+            guna2HtmlLabel1.Size = new Size(71, 26);
             guna2HtmlLabel1.TabIndex = 1;
             guna2HtmlLabel1.Text = "Mã món";
             // 
@@ -527,7 +524,7 @@
             // 
             // frmmenu
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.SteelBlue;
             ClientSize = new Size(1028, 705);

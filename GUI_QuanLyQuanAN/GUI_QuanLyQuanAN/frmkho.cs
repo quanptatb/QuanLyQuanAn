@@ -22,11 +22,6 @@ namespace GUI_QuanLyQuanAN
 
         }
 
-        private void guna2HtmlLabel5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnlíchsunhap_Click(object sender, EventArgs e)
         {
             frmlíchunhap frmlíchunhap = new frmlíchunhap();

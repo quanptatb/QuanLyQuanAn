@@ -18,16 +18,6 @@ namespace GUI_QuanLyQuanAN
             InitializeComponent();
         }
 
-        private void guna2HtmlLabel7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cuiTextBox2_ContentChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnchamcong_Click(object sender, EventArgs e)
         {
             frmchamcong f = new frmchamcong();

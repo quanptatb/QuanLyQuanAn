@@ -16,10 +16,5 @@ namespace GUI_QuanLyQuanAN
         {
             InitializeComponent();
         }
-
-        private void cuiPanel1_MouseLeave(object sender, EventArgs e)
-        {
-        
-        }
     }
 }

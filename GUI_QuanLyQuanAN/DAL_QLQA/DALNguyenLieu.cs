@@ -24,7 +24,7 @@ namespace DAL_QLQA
             parameters[0] = new SqlParameter("@Ma", SqlDbType.NVarChar) { Value = nguyenLieu.MaNguyenLieu };
             parameters[1] = new SqlParameter("@Ten", SqlDbType.NVarChar) { Value = nguyenLieu.TenNguyenLieu };
             parameters[2] = new SqlParameter("@DVT", SqlDbType.NVarChar) { Value = nguyenLieu.DonViTinh };
-            parameters[3] = new SqlParameter("@IdNCC", SqlDbType.Int) { Value = (object)nguyenLieu.IdNhaCungCap ?? System.DBNull.Value };
+            parameters[3] = new SqlParameter("@IdNCC", SqlDbType.Int) { Value = (object)nguyenLieu.MaNhaCungCap ?? System.DBNull.Value };
             return DBUtil.ExecuteNonQuery(sql, parameters);
         }
 
@@ -34,7 +34,7 @@ namespace DAL_QLQA
             SqlParameter[] parameters = new SqlParameter[4];
             parameters[0] = new SqlParameter("@Ten", SqlDbType.NVarChar) { Value = nguyenLieu.TenNguyenLieu };
             parameters[1] = new SqlParameter("@DVT", SqlDbType.NVarChar) { Value = nguyenLieu.DonViTinh };
-            parameters[2] = new SqlParameter("@IdNCC", SqlDbType.Int) { Value = (object)nguyenLieu.IdNhaCungCap ?? System.DBNull.Value };
+            parameters[2] = new SqlParameter("@IdNCC", SqlDbType.Int) { Value = (object)nguyenLieu.MaNhaCungCap ?? System.DBNull.Value };
             parameters[3] = new SqlParameter("@Ma", SqlDbType.NVarChar) { Value = nguyenLieu.MaNguyenLieu };
             return DBUtil.ExecuteNonQuery(sql, parameters);
         }

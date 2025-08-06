@@ -134,6 +134,7 @@
             dataGridViewCellStyle4.SelectionForeColor = Color.White;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
             uiDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            uiDataGridView1.RowHeadersWidth = 51;
             dataGridViewCellStyle5.BackColor = Color.White;
             dataGridViewCellStyle5.Font = new Font("Microsoft Sans Serif", 12F);
             uiDataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle5;
@@ -181,16 +182,18 @@
             // 
             // dtplíchuthanhtoan
             // 
+            dtplíchuthanhtoan.BorderColor = Color.BlanchedAlmond;
             dtplíchuthanhtoan.Checked = true;
             dtplíchuthanhtoan.CustomizableEdges = customizableEdges1;
+            dtplíchuthanhtoan.FillColor = Color.SteelBlue;
             dtplíchuthanhtoan.Font = new Font("Segoe UI", 9F);
-            dtplíchuthanhtoan.Format = DateTimePickerFormat.Long;
-            dtplíchuthanhtoan.Location = new Point(208, 15);
+            dtplíchuthanhtoan.Format = DateTimePickerFormat.Short;
+            dtplíchuthanhtoan.Location = new Point(255, 15);
             dtplíchuthanhtoan.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtplíchuthanhtoan.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtplíchuthanhtoan.Name = "dtplíchuthanhtoan";
             dtplíchuthanhtoan.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            dtplíchuthanhtoan.Size = new Size(200, 36);
+            dtplíchuthanhtoan.Size = new Size(153, 36);
             dtplíchuthanhtoan.TabIndex = 1;
             dtplíchuthanhtoan.Value = new DateTime(2025, 8, 1, 16, 25, 13, 784);
             // 
@@ -200,7 +203,7 @@
             guna2HtmlLabel1.Font = new Font("Calibri", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel1.Location = new Point(13, 15);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(189, 25);
+            guna2HtmlLabel1.Size = new Size(240, 31);
             guna2HtmlLabel1.TabIndex = 0;
             guna2HtmlLabel1.Text = "Lịch sử thanh toán ngày";
             // 
@@ -286,7 +289,7 @@
             labngaythangnamthanhtoan.ForeColor = Color.White;
             labngaythangnamthanhtoan.Location = new Point(160, 559);
             labngaythangnamthanhtoan.Name = "labngaythangnamthanhtoan";
-            labngaythangnamthanhtoan.Size = new Size(177, 25);
+            labngaythangnamthanhtoan.Size = new Size(226, 31);
             labngaythangnamthanhtoan.TabIndex = 11;
             labngaythangnamthanhtoan.Text = "Thứ, ngày, tháng, năm";
             // 
@@ -297,7 +300,7 @@
             labgiothanhtoan.ForeColor = Color.White;
             labgiothanhtoan.Location = new Point(15, 559);
             labgiothanhtoan.Name = "labgiothanhtoan";
-            labgiothanhtoan.Size = new Size(29, 25);
+            labgiothanhtoan.Size = new Size(35, 31);
             labgiothanhtoan.TabIndex = 10;
             labgiothanhtoan.Text = "giờ";
             // 
@@ -308,7 +311,7 @@
             guna2HtmlLabel6.ForeColor = Color.White;
             guna2HtmlLabel6.Location = new Point(15, 526);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            guna2HtmlLabel6.Size = new Size(166, 25);
+            guna2HtmlLabel6.Size = new Size(211, 31);
             guna2HtmlLabel6.TabIndex = 9;
             guna2HtmlLabel6.Text = "Thời gian thanh toán";
             // 
@@ -319,7 +322,7 @@
             labgials.ForeColor = Color.White;
             labgials.Location = new Point(320, 493);
             labgials.Name = "labgials";
-            labgials.Size = new Size(26, 25);
+            labgials.Size = new Size(32, 31);
             labgials.TabIndex = 8;
             labgials.Text = "giá";
             // 
@@ -330,7 +333,7 @@
             guna2HtmlLabel5.ForeColor = Color.White;
             guna2HtmlLabel5.Location = new Point(28, 493);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(46, 25);
+            guna2HtmlLabel5.Size = new Size(59, 31);
             guna2HtmlLabel5.TabIndex = 7;
             guna2HtmlLabel5.Text = "Tổng:";
             // 
@@ -341,7 +344,7 @@
             labngaythangnamgoi.ForeColor = Color.White;
             labngaythangnamgoi.Location = new Point(160, 102);
             labngaythangnamgoi.Name = "labngaythangnamgoi";
-            labngaythangnamgoi.Size = new Size(177, 25);
+            labngaythangnamgoi.Size = new Size(226, 31);
             labngaythangnamgoi.TabIndex = 6;
             labngaythangnamgoi.Text = "Thứ, ngày, tháng, năm";
             // 
@@ -352,7 +355,7 @@
             labgiogoi.ForeColor = Color.White;
             labgiogoi.Location = new Point(15, 102);
             labgiogoi.Name = "labgiogoi";
-            labgiogoi.Size = new Size(29, 25);
+            labgiogoi.Size = new Size(35, 31);
             labgiogoi.TabIndex = 5;
             labgiogoi.Text = "giờ";
             // 
@@ -363,7 +366,7 @@
             guna2HtmlLabel3.ForeColor = Color.White;
             guna2HtmlLabel3.Location = new Point(15, 65);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(146, 25);
+            guna2HtmlLabel3.Size = new Size(185, 31);
             guna2HtmlLabel3.TabIndex = 4;
             guna2HtmlLabel3.Text = "thời gian gọi món:";
             // 
@@ -374,7 +377,7 @@
             guna2HtmlLabel4.ForeColor = Color.White;
             guna2HtmlLabel4.Location = new Point(15, 135);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(126, 25);
+            guna2HtmlLabel4.Size = new Size(162, 31);
             guna2HtmlLabel4.TabIndex = 3;
             guna2HtmlLabel4.Text = "Các món đã gọi:";
             // 
@@ -385,7 +388,7 @@
             labsoban.ForeColor = Color.White;
             labsoban.Location = new Point(220, 21);
             labsoban.Name = "labsoban";
-            labsoban.Size = new Size(21, 25);
+            labsoban.Size = new Size(26, 31);
             labsoban.TabIndex = 2;
             labsoban.Text = "số";
             // 
@@ -396,7 +399,7 @@
             guna2HtmlLabel2.ForeColor = Color.White;
             guna2HtmlLabel2.Location = new Point(15, 21);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(186, 25);
+            guna2HtmlLabel2.Size = new Size(238, 31);
             guna2HtmlLabel2.TabIndex = 1;
             guna2HtmlLabel2.Text = "Lịch sử thanh toán bàn:";
             // 
@@ -436,6 +439,7 @@
             dataGridViewCellStyle9.SelectionForeColor = Color.White;
             dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
             dgvdanhsachdagoi.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dgvdanhsachdagoi.RowHeadersWidth = 51;
             dataGridViewCellStyle10.BackColor = Color.White;
             dataGridViewCellStyle10.Font = new Font("Microsoft Sans Serif", 12F);
             dgvdanhsachdagoi.RowsDefaultCellStyle = dataGridViewCellStyle10;
@@ -446,7 +450,7 @@
             // 
             // frmlichsu
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.SteelBlue;
             ClientSize = new Size(1028, 705);

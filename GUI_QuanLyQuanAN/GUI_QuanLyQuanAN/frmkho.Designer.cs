@@ -190,7 +190,7 @@
             cuiTextBox1.Name = "cuiTextBox1";
             cuiTextBox1.NormalImageTint = Color.White;
             cuiTextBox1.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox1.Padding = new Padding(15, 15, 15, 0);
+            cuiTextBox1.Padding = new Padding(18, 13, 18, 0);
             cuiTextBox1.PasswordChar = false;
             cuiTextBox1.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox1.PlaceholderText = "";
@@ -249,6 +249,7 @@
             dataGridViewCellStyle4.SelectionForeColor = Color.White;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
             dgvkho.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dgvkho.RowHeadersWidth = 51;
             dataGridViewCellStyle5.BackColor = Color.White;
             dataGridViewCellStyle5.Font = new Font("Microsoft Sans Serif", 12F);
             dgvkho.RowsDefaultCellStyle = dataGridViewCellStyle5;
@@ -317,7 +318,7 @@
             guna2HtmlLabel6.Font = new Font("Calibri", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 0);
             guna2HtmlLabel6.Location = new Point(19, 231);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            guna2HtmlLabel6.Size = new Size(109, 25);
+            guna2HtmlLabel6.Size = new Size(132, 31);
             guna2HtmlLabel6.TabIndex = 13;
             guna2HtmlLabel6.Text = "Nhà cung cấp";
             // 
@@ -492,7 +493,7 @@
             cuiTextBox5.Name = "cuiTextBox5";
             cuiTextBox5.NormalImageTint = Color.White;
             cuiTextBox5.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox5.Padding = new Padding(15, 15, 15, 0);
+            cuiTextBox5.Padding = new Padding(18, 13, 18, 0);
             cuiTextBox5.PasswordChar = false;
             cuiTextBox5.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox5.PlaceholderText = "";
@@ -521,7 +522,7 @@
             cuiTextBox4.Name = "cuiTextBox4";
             cuiTextBox4.NormalImageTint = Color.White;
             cuiTextBox4.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox4.Padding = new Padding(15, 15, 15, 0);
+            cuiTextBox4.Padding = new Padding(18, 13, 18, 0);
             cuiTextBox4.PasswordChar = false;
             cuiTextBox4.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox4.PlaceholderText = "";
@@ -550,7 +551,7 @@
             cuiTextBox3.Name = "cuiTextBox3";
             cuiTextBox3.NormalImageTint = Color.White;
             cuiTextBox3.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox3.Padding = new Padding(15, 15, 15, 0);
+            cuiTextBox3.Padding = new Padding(18, 13, 18, 0);
             cuiTextBox3.PasswordChar = false;
             cuiTextBox3.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox3.PlaceholderText = "";
@@ -579,7 +580,7 @@
             cuiTextBox2.Name = "cuiTextBox2";
             cuiTextBox2.NormalImageTint = Color.White;
             cuiTextBox2.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox2.Padding = new Padding(15, 15, 15, 0);
+            cuiTextBox2.Padding = new Padding(18, 13, 18, 0);
             cuiTextBox2.PasswordChar = false;
             cuiTextBox2.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox2.PlaceholderText = "";
@@ -595,7 +596,7 @@
             labgianhap.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             labgianhap.Location = new Point(283, 344);
             labgianhap.Name = "labgianhap";
-            labgianhap.Size = new Size(29, 25);
+            labgianhap.Size = new Size(36, 31);
             labgianhap.TabIndex = 5;
             labgianhap.Text = "Giá";
             // 
@@ -605,10 +606,9 @@
             guna2HtmlLabel5.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel5.Location = new Point(19, 344);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(90, 25);
+            guna2HtmlLabel5.Size = new Size(111, 31);
             guna2HtmlLabel5.TabIndex = 4;
             guna2HtmlLabel5.Text = "Thành tiền:";
-            guna2HtmlLabel5.Click += guna2HtmlLabel5_Click;
             // 
             // guna2HtmlLabel4
             // 
@@ -616,7 +616,7 @@
             guna2HtmlLabel4.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel4.Location = new Point(205, 133);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(107, 25);
+            guna2HtmlLabel4.Size = new Size(131, 31);
             guna2HtmlLabel4.TabIndex = 3;
             guna2HtmlLabel4.Text = "Số lượng (kg)";
             // 
@@ -626,7 +626,7 @@
             guna2HtmlLabel3.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel3.Location = new Point(19, 133);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(99, 25);
+            guna2HtmlLabel3.Size = new Size(121, 31);
             guna2HtmlLabel3.TabIndex = 2;
             guna2HtmlLabel3.Text = "Giá nhập/kg";
             // 
@@ -636,7 +636,7 @@
             guna2HtmlLabel2.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel2.Location = new Point(167, 28);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(119, 25);
+            guna2HtmlLabel2.Size = new Size(147, 31);
             guna2HtmlLabel2.TabIndex = 1;
             guna2HtmlLabel2.Text = "Tên thực phẩm";
             // 
@@ -646,13 +646,13 @@
             guna2HtmlLabel1.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel1.Location = new Point(19, 29);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(117, 25);
+            guna2HtmlLabel1.Size = new Size(145, 31);
             guna2HtmlLabel1.TabIndex = 0;
             guna2HtmlLabel1.Text = "Mã thực phẩm";
             // 
             // frmkho
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(224, 224, 224);
             ClientSize = new Size(1028, 705);

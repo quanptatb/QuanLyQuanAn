@@ -43,6 +43,8 @@
             btnxoanhanvien = new CuoreUI.Controls.cuiButton();
             btnchamcong = new CuoreUI.Controls.cuiButton();
             cuiPanel1 = new CuoreUI.Controls.cuiPanel();
+            cuiComboBox1 = new CuoreUI.Controls.cuiComboBox();
+            guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             cbocalam = new CuoreUI.Controls.cuiComboBox();
             btnlammoi = new CuoreUI.Controls.cuiButton();
@@ -67,8 +69,6 @@
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             txttimnhanvien = new CuoreUI.Controls.cuiTextBox();
-            guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            cuiComboBox1 = new CuoreUI.Controls.cuiComboBox();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dvgnhanvien).BeginInit();
             cuiPanel1.SuspendLayout();
@@ -124,6 +124,7 @@
             dataGridViewCellStyle4.SelectionForeColor = Color.White;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
             dvgnhanvien.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dvgnhanvien.RowHeadersWidth = 51;
             dataGridViewCellStyle5.BackColor = Color.White;
             dataGridViewCellStyle5.Font = new Font("Microsoft Sans Serif", 12F);
             dvgnhanvien.RowsDefaultCellStyle = dataGridViewCellStyle5;
@@ -243,13 +244,49 @@
             cuiPanel1.Size = new Size(366, 655);
             cuiPanel1.TabIndex = 2;
             // 
+            // cuiComboBox1
+            // 
+            cuiComboBox1.BackColor = Color.FromArgb(224, 224, 224);
+            cuiComboBox1.BackgroundColor = Color.FromArgb(255, 255, 255);
+            cuiComboBox1.ButtonCursor = Cursors.Arrow;
+            cuiComboBox1.ButtonHoverBackground = Color.FromArgb(192, 255, 106, 0);
+            cuiComboBox1.ButtonHoverOutline = Color.Empty;
+            cuiComboBox1.ButtonNormalBackground = Color.FromArgb(255, 106, 0);
+            cuiComboBox1.ButtonNormalOutline = Color.Empty;
+            cuiComboBox1.ButtonPressedBackground = Color.FromArgb(255, 106, 0);
+            cuiComboBox1.ButtonPressedOutline = Color.Empty;
+            cuiComboBox1.DropDownBackgroundColor = Color.White;
+            cuiComboBox1.DropDownOutlineColor = Color.FromArgb(30, 255, 255, 255);
+            cuiComboBox1.ExpandArrowColor = Color.Black;
+            cuiComboBox1.ForeColor = Color.Black;
+            cuiComboBox1.Location = new Point(124, 251);
+            cuiComboBox1.Margin = new Padding(4, 3, 4, 3);
+            cuiComboBox1.Name = "cuiComboBox1";
+            cuiComboBox1.NoSelectionDropdownText = "Empty";
+            cuiComboBox1.NoSelectionText = "None";
+            cuiComboBox1.OutlineColor = Color.FromArgb(64, 128, 128, 128);
+            cuiComboBox1.OutlineThickness = 1F;
+            cuiComboBox1.Rounding = 8;
+            cuiComboBox1.Size = new Size(243, 39);
+            cuiComboBox1.TabIndex = 28;
+            // 
+            // guna2HtmlLabel11
+            // 
+            guna2HtmlLabel11.BackColor = Color.Transparent;
+            guna2HtmlLabel11.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
+            guna2HtmlLabel11.Location = new Point(15, 259);
+            guna2HtmlLabel11.Name = "guna2HtmlLabel11";
+            guna2HtmlLabel11.Size = new Size(102, 31);
+            guna2HtmlLabel11.TabIndex = 27;
+            guna2HtmlLabel11.Text = "Trạng thái";
+            // 
             // guna2HtmlLabel4
             // 
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel4.Location = new Point(186, 92);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(56, 25);
+            guna2HtmlLabel4.Size = new Size(70, 31);
             guna2HtmlLabel4.TabIndex = 26;
             guna2HtmlLabel4.Text = "Ca làm";
             // 
@@ -400,7 +437,7 @@
             txtmknhanvien.Name = "txtmknhanvien";
             txtmknhanvien.NormalImageTint = Color.White;
             txtmknhanvien.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txtmknhanvien.Padding = new Padding(15, 10, 15, 0);
+            txtmknhanvien.Padding = new Padding(18, 8, 18, 0);
             txtmknhanvien.PasswordChar = false;
             txtmknhanvien.PlaceholderColor = SystemColors.WindowText;
             txtmknhanvien.PlaceholderText = "";
@@ -430,7 +467,7 @@
             txttaikhoannhanvien.Name = "txttaikhoannhanvien";
             txttaikhoannhanvien.NormalImageTint = Color.White;
             txttaikhoannhanvien.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txttaikhoannhanvien.Padding = new Padding(15, 11, 15, 0);
+            txttaikhoannhanvien.Padding = new Padding(18, 9, 18, 0);
             txttaikhoannhanvien.PasswordChar = false;
             txttaikhoannhanvien.PlaceholderColor = SystemColors.WindowText;
             txttaikhoannhanvien.PlaceholderText = "";
@@ -460,7 +497,7 @@
             txtsdt.Name = "txtsdt";
             txtsdt.NormalImageTint = Color.White;
             txtsdt.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txtsdt.Padding = new Padding(15, 10, 15, 0);
+            txtsdt.Padding = new Padding(18, 8, 18, 0);
             txtsdt.PasswordChar = false;
             txtsdt.PlaceholderColor = SystemColors.WindowText;
             txtsdt.PlaceholderText = "";
@@ -490,7 +527,7 @@
             txtdiachi.Name = "txtdiachi";
             txtdiachi.NormalImageTint = Color.White;
             txtdiachi.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txtdiachi.Padding = new Padding(15, 11, 15, 0);
+            txtdiachi.Padding = new Padding(18, 9, 18, 0);
             txtdiachi.PasswordChar = false;
             txtdiachi.PlaceholderColor = SystemColors.WindowText;
             txtdiachi.PlaceholderText = "";
@@ -520,7 +557,7 @@
             txthoten.Name = "txthoten";
             txthoten.NormalImageTint = Color.White;
             txthoten.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txthoten.Padding = new Padding(15, 10, 15, 0);
+            txthoten.Padding = new Padding(18, 8, 18, 0);
             txthoten.PasswordChar = false;
             txthoten.PlaceholderColor = SystemColors.WindowText;
             txthoten.PlaceholderText = "";
@@ -529,7 +566,6 @@
             txthoten.TabIndex = 15;
             txthoten.TextOffset = new Size(0, 0);
             txthoten.UnderlinedStyle = true;
-            txthoten.ContentChanged += cuiTextBox2_ContentChanged;
             // 
             // guna2HtmlLabel10
             // 
@@ -537,7 +573,7 @@
             guna2HtmlLabel10.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel10.Location = new Point(199, 446);
             guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            guna2HtmlLabel10.Size = new Size(78, 25);
+            guna2HtmlLabel10.Size = new Size(96, 31);
             guna2HtmlLabel10.TabIndex = 14;
             guna2HtmlLabel10.Text = "Mật khẩu";
             // 
@@ -547,7 +583,7 @@
             guna2HtmlLabel9.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel9.Location = new Point(15, 446);
             guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            guna2HtmlLabel9.Size = new Size(79, 25);
+            guna2HtmlLabel9.Size = new Size(97, 31);
             guna2HtmlLabel9.TabIndex = 13;
             guna2HtmlLabel9.Text = "Tài khoản";
             // 
@@ -571,7 +607,7 @@
             txtmxnhanvien.Name = "txtmxnhanvien";
             txtmxnhanvien.NormalImageTint = Color.White;
             txtmxnhanvien.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txtmxnhanvien.Padding = new Padding(15, 10, 15, 0);
+            txtmxnhanvien.Padding = new Padding(18, 8, 18, 0);
             txtmxnhanvien.PasswordChar = false;
             txtmxnhanvien.PlaceholderColor = SystemColors.WindowText;
             txtmxnhanvien.PlaceholderText = "";
@@ -663,7 +699,7 @@
             guna2HtmlLabel8.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel8.Location = new Point(15, 394);
             guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            guna2HtmlLabel8.Size = new Size(77, 25);
+            guna2HtmlLabel8.Size = new Size(95, 31);
             guna2HtmlLabel8.TabIndex = 7;
             guna2HtmlLabel8.Text = "Ngày làm";
             // 
@@ -673,10 +709,9 @@
             guna2HtmlLabel7.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel7.Location = new Point(19, 321);
             guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            guna2HtmlLabel7.Size = new Size(79, 25);
+            guna2HtmlLabel7.Size = new Size(97, 31);
             guna2HtmlLabel7.TabIndex = 6;
             guna2HtmlLabel7.Text = "Ngày sinh";
-            guna2HtmlLabel7.Click += guna2HtmlLabel7_Click;
             // 
             // guna2HtmlLabel6
             // 
@@ -684,7 +719,7 @@
             guna2HtmlLabel6.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel6.Location = new Point(186, 170);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            guna2HtmlLabel6.Size = new Size(33, 25);
+            guna2HtmlLabel6.Size = new Size(41, 31);
             guna2HtmlLabel6.TabIndex = 5;
             guna2HtmlLabel6.Text = "SDT";
             // 
@@ -694,7 +729,7 @@
             guna2HtmlLabel5.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel5.Location = new Point(15, 170);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(55, 25);
+            guna2HtmlLabel5.Size = new Size(69, 31);
             guna2HtmlLabel5.TabIndex = 4;
             guna2HtmlLabel5.Text = "Địa chỉ";
             // 
@@ -704,7 +739,7 @@
             guna2HtmlLabel3.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel3.Location = new Point(15, 90);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(64, 25);
+            guna2HtmlLabel3.Size = new Size(80, 31);
             guna2HtmlLabel3.TabIndex = 2;
             guna2HtmlLabel3.Text = "Chức vụ";
             // 
@@ -714,7 +749,7 @@
             guna2HtmlLabel2.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel2.Location = new Point(157, 17);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(54, 25);
+            guna2HtmlLabel2.Size = new Size(66, 31);
             guna2HtmlLabel2.TabIndex = 1;
             guna2HtmlLabel2.Text = "Họ tên";
             // 
@@ -724,7 +759,7 @@
             guna2HtmlLabel1.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel1.Location = new Point(15, 17);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(20, 25);
+            guna2HtmlLabel1.Size = new Size(24, 31);
             guna2HtmlLabel1.TabIndex = 0;
             guna2HtmlLabel1.Text = "ID";
             // 
@@ -748,7 +783,7 @@
             txttimnhanvien.Name = "txttimnhanvien";
             txttimnhanvien.NormalImageTint = Color.White;
             txttimnhanvien.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txttimnhanvien.Padding = new Padding(15, 15, 15, 0);
+            txttimnhanvien.Padding = new Padding(18, 13, 18, 0);
             txttimnhanvien.PasswordChar = false;
             txttimnhanvien.PlaceholderColor = SystemColors.WindowText;
             txttimnhanvien.PlaceholderText = "";
@@ -758,45 +793,9 @@
             txttimnhanvien.TextOffset = new Size(0, 0);
             txttimnhanvien.UnderlinedStyle = true;
             // 
-            // guna2HtmlLabel11
-            // 
-            guna2HtmlLabel11.BackColor = Color.Transparent;
-            guna2HtmlLabel11.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
-            guna2HtmlLabel11.Location = new Point(15, 259);
-            guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            guna2HtmlLabel11.Size = new Size(83, 25);
-            guna2HtmlLabel11.TabIndex = 27;
-            guna2HtmlLabel11.Text = "Trạng thái";
-            // 
-            // cuiComboBox1
-            // 
-            cuiComboBox1.BackColor = Color.FromArgb(224, 224, 224);
-            cuiComboBox1.BackgroundColor = Color.FromArgb(255, 255, 255);
-            cuiComboBox1.ButtonCursor = Cursors.Arrow;
-            cuiComboBox1.ButtonHoverBackground = Color.FromArgb(192, 255, 106, 0);
-            cuiComboBox1.ButtonHoverOutline = Color.Empty;
-            cuiComboBox1.ButtonNormalBackground = Color.FromArgb(255, 106, 0);
-            cuiComboBox1.ButtonNormalOutline = Color.Empty;
-            cuiComboBox1.ButtonPressedBackground = Color.FromArgb(255, 106, 0);
-            cuiComboBox1.ButtonPressedOutline = Color.Empty;
-            cuiComboBox1.DropDownBackgroundColor = Color.White;
-            cuiComboBox1.DropDownOutlineColor = Color.FromArgb(30, 255, 255, 255);
-            cuiComboBox1.ExpandArrowColor = Color.Black;
-            cuiComboBox1.ForeColor = Color.Black;
-            cuiComboBox1.Location = new Point(107, 245);
-            cuiComboBox1.Margin = new Padding(4, 3, 4, 3);
-            cuiComboBox1.Name = "cuiComboBox1";
-            cuiComboBox1.NoSelectionDropdownText = "Empty";
-            cuiComboBox1.NoSelectionText = "None";
-            cuiComboBox1.OutlineColor = Color.FromArgb(64, 128, 128, 128);
-            cuiComboBox1.OutlineThickness = 1F;
-            cuiComboBox1.Rounding = 8;
-            cuiComboBox1.Size = new Size(243, 39);
-            cuiComboBox1.TabIndex = 28;
-            // 
             // frmnhanvin
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1028, 705);
             Controls.Add(groupBox1);

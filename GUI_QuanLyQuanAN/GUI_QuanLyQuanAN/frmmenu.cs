@@ -16,25 +16,5 @@ namespace GUI_QuanLyQuanAN
         {
             InitializeComponent();
         }
-
-        private void cuiTextBox3_ContentChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cuiButton4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cuiTextBox1_Leave(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void txttimkiem_Enter(object sender, EventArgs e)
-        {
-            
-        }
     }
 }

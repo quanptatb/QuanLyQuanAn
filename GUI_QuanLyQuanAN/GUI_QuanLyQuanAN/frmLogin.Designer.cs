@@ -52,7 +52,7 @@
             cuiGroupBox1.Controls.Add(cuiPanel1);
             cuiGroupBox1.Location = new Point(12, 12);
             cuiGroupBox1.Name = "cuiGroupBox1";
-            cuiGroupBox1.Padding = new Padding(4, 27, 4, 4);
+            cuiGroupBox1.Padding = new Padding(4, 34, 4, 4);
             cuiGroupBox1.Rounding = new Padding(4);
             cuiGroupBox1.Size = new Size(857, 459);
             cuiGroupBox1.TabIndex = 1;
@@ -83,7 +83,6 @@
             cuiPanel1.Rounding = new Padding(8);
             cuiPanel1.Size = new Size(364, 401);
             cuiPanel1.TabIndex = 1;
-            cuiPanel1.MouseLeave += cuiPanel1_MouseLeave;
             // 
             // label1
             // 
@@ -91,7 +90,7 @@
             label1.Cursor = Cursors.Hand;
             label1.Location = new Point(109, 290);
             label1.Name = "label1";
-            label1.Size = new Size(151, 25);
+            label1.Size = new Size(194, 32);
             label1.TabIndex = 6;
             label1.Text = " Quên mật khẩu ";
             // 
@@ -151,7 +150,7 @@
             cuiTextBox2.Name = "cuiTextBox2";
             cuiTextBox2.NormalImageTint = Color.White;
             cuiTextBox2.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox2.Padding = new Padding(15, 14, 15, 0);
+            cuiTextBox2.Padding = new Padding(18, 12, 18, 0);
             cuiTextBox2.PasswordChar = false;
             cuiTextBox2.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox2.PlaceholderText = "";
@@ -181,7 +180,7 @@
             cuiTextBox1.Name = "cuiTextBox1";
             cuiTextBox1.NormalImageTint = Color.White;
             cuiTextBox1.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox1.Padding = new Padding(15, 14, 15, 0);
+            cuiTextBox1.Padding = new Padding(18, 12, 18, 0);
             cuiTextBox1.PasswordChar = false;
             cuiTextBox1.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox1.PlaceholderText = "";
@@ -197,7 +196,7 @@
             guna2HtmlLabel2.Font = new Font("Calibri", 14.25F, FontStyle.Bold);
             guna2HtmlLabel2.Location = new Point(29, 144);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(78, 25);
+            guna2HtmlLabel2.Size = new Size(99, 31);
             guna2HtmlLabel2.TabIndex = 1;
             guna2HtmlLabel2.Text = "Mật khẩu";
             // 
@@ -207,13 +206,13 @@
             guna2HtmlLabel1.Font = new Font("Calibri", 14.25F, FontStyle.Bold);
             guna2HtmlLabel1.Location = new Point(29, 39);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(41, 25);
+            guna2HtmlLabel1.Size = new Size(53, 31);
             guna2HtmlLabel1.TabIndex = 0;
             guna2HtmlLabel1.Text = "Emai";
             // 
             // Login
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(881, 483);
             Controls.Add(cuiGroupBox1);

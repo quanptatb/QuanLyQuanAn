@@ -16,15 +16,5 @@ namespace GUI_QuanLyQuanAN
         {
             InitializeComponent();
         }
-
-        private void btnnhanma_MouseHover(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnnhanma_MouseEnter(object sender, EventArgs e)
-        {
-            
-        }
     }
 }

@@ -84,7 +84,7 @@
             guna2HtmlLabel3.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel3.Location = new Point(19, 300);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(301, 25);
+            guna2HtmlLabel3.Size = new Size(370, 31);
             guna2HtmlLabel3.TabIndex = 8;
             guna2HtmlLabel3.Text = "bạn chính là người đang cố đăng nhập";
             // 
@@ -94,7 +94,7 @@
             guna2HtmlLabel2.Font = new Font("Calibri", 14.25F, FontStyle.Italic);
             guna2HtmlLabel2.Location = new Point(19, 267);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(536, 25);
+            guna2HtmlLabel2.Size = new Size(657, 31);
             guna2HtmlLabel2.TabIndex = 7;
             guna2HtmlLabel2.Text = "Để giữ an toàn cho tài khoản của bạn, chúng tôi muốn đảm bảo rằng ";
             // 
@@ -114,7 +114,7 @@
             guna2HtmlLabel1.Font = new Font("Calibri", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel1.Location = new Point(19, 200);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(307, 47);
+            guna2HtmlLabel1.Size = new Size(383, 58);
             guna2HtmlLabel1.TabIndex = 5;
             guna2HtmlLabel1.Text = "Khôi phục tài khoản";
             // 
@@ -152,8 +152,8 @@
             cuiButton1.Font = new Font("Calibri", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             cuiButton1.ForeColor = Color.White;
             cuiButton1.HoverBackground = Color.SkyBlue;
-            cuiButton1.HoverImageTint = Color.Black;
             cuiButton1.HoverForeColor = Color.Black;
+            cuiButton1.HoverImageTint = Color.Black;
             cuiButton1.HoverOutline = Color.FromArgb(32, 128, 128, 128);
             cuiButton1.Image = null;
             cuiButton1.ImageAutoCenter = true;
@@ -179,14 +179,12 @@
             // btnnhanma
             // 
             btnnhanma.Cursor = Cursors.Hand;
-            btnnhanma.Location = new Point(257, 121);
+            btnnhanma.Location = new Point(242, 111);
             btnnhanma.Name = "btnnhanma";
-            btnnhanma.Size = new Size(119, 34);
+            btnnhanma.Size = new Size(134, 44);
             btnnhanma.TabIndex = 8;
             btnnhanma.Text = "Nhận mã";
             btnnhanma.UseVisualStyleBackColor = true;
-            btnnhanma.MouseEnter += btnnhanma_MouseEnter;
-            btnnhanma.MouseHover += btnnhanma_MouseHover;
             // 
             // cuiTextBox4
             // 
@@ -208,7 +206,7 @@
             cuiTextBox4.Name = "cuiTextBox4";
             cuiTextBox4.NormalImageTint = Color.White;
             cuiTextBox4.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox4.Padding = new Padding(15, 8, 15, 0);
+            cuiTextBox4.Padding = new Padding(18, 6, 18, 0);
             cuiTextBox4.PasswordChar = false;
             cuiTextBox4.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox4.PlaceholderText = "";
@@ -238,7 +236,7 @@
             cuiTextBox3.Name = "cuiTextBox3";
             cuiTextBox3.NormalImageTint = Color.White;
             cuiTextBox3.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox3.Padding = new Padding(15, 8, 15, 0);
+            cuiTextBox3.Padding = new Padding(18, 6, 18, 0);
             cuiTextBox3.PasswordChar = false;
             cuiTextBox3.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox3.PlaceholderText = "";
@@ -262,13 +260,13 @@
             cuiTextBox2.Image = null;
             cuiTextBox2.ImageExpand = new Point(0, 0);
             cuiTextBox2.ImageOffset = new Point(0, 0);
-            cuiTextBox2.Location = new Point(17, 121);
+            cuiTextBox2.Location = new Point(0, 121);
             cuiTextBox2.Margin = new Padding(4);
             cuiTextBox2.Multiline = false;
             cuiTextBox2.Name = "cuiTextBox2";
             cuiTextBox2.NormalImageTint = Color.White;
             cuiTextBox2.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox2.Padding = new Padding(15, 10, 15, 0);
+            cuiTextBox2.Padding = new Padding(18, 8, 18, 0);
             cuiTextBox2.PasswordChar = false;
             cuiTextBox2.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox2.PlaceholderText = "";
@@ -298,7 +296,7 @@
             cuiTextBox1.Name = "cuiTextBox1";
             cuiTextBox1.NormalImageTint = Color.White;
             cuiTextBox1.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            cuiTextBox1.Padding = new Padding(15, 8, 15, 0);
+            cuiTextBox1.Padding = new Padding(18, 6, 18, 0);
             cuiTextBox1.PasswordChar = false;
             cuiTextBox1.PlaceholderColor = SystemColors.WindowText;
             cuiTextBox1.PlaceholderText = "";
@@ -315,7 +313,7 @@
             label4.Font = new Font("Calibri", 14.25F);
             label4.Location = new Point(17, 251);
             label4.Name = "label4";
-            label4.Size = new Size(156, 23);
+            label4.Size = new Size(201, 29);
             label4.TabIndex = 3;
             label4.Text = "Xác nhận mật khẩu";
             // 
@@ -326,7 +324,7 @@
             label3.Font = new Font("Calibri", 14.25F);
             label3.Location = new Point(17, 169);
             label3.Name = "label3";
-            label3.Size = new Size(161, 23);
+            label3.Size = new Size(209, 29);
             label3.TabIndex = 2;
             label3.Text = "Nhập mật khẩu mới";
             // 
@@ -337,7 +335,7 @@
             label2.Font = new Font("Calibri", 14.25F);
             label2.Location = new Point(17, 92);
             label2.Name = "label2";
-            label2.Size = new Size(107, 23);
+            label2.Size = new Size(139, 29);
             label2.TabIndex = 1;
             label2.Text = "Mã xác nhận";
             // 
@@ -348,13 +346,13 @@
             label1.Font = new Font("Calibri", 14.25F);
             label1.Location = new Point(17, 18);
             label1.Name = "label1";
-            label1.Size = new Size(115, 23);
+            label1.Size = new Size(151, 29);
             label1.TabIndex = 0;
             label1.Text = "Email của bạn";
             // 
             // Quenmk
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1023, 510);
             Controls.Add(groupBox1);
