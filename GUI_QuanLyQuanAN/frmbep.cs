@@ -126,6 +126,7 @@ namespace GUI_QuanLyQuanAN
             {
                 MessageBox.Show("Vui lòng chọn một order để xác nhận.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
         }
 
         /// <summary>

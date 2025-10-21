@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GUI_QLQA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+153636ad60ce3932c78c0528316a6c145f4278a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed2831ba2e16d81271ec23f595b937ea07916ae7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GUI_QLQA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GUI_QLQA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
