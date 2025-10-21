@@ -564,7 +564,7 @@
             // 
             labtennhanvien.BackColor = Color.Transparent;
             labtennhanvien.Font = new Font("Calibri", 14.25F, FontStyle.Bold);
-            labtennhanvien.Location = new Point(793, 24);
+            labtennhanvien.Location = new Point(683, 24);
             labtennhanvien.Name = "labtennhanvien";
             labtennhanvien.Size = new Size(143, 31);
             labtennhanvien.TabIndex = 2;

@@ -40,6 +40,7 @@
             groupBox1 = new GroupBox();
             cuiPanel4 = new CuoreUI.Controls.cuiPanel();
             cuiPanel5 = new CuoreUI.Controls.cuiPanel();
+            ban2 = new CuoreUI.Controls.cuiButton();
             ban12 = new CuoreUI.Controls.cuiButton();
             ban11 = new CuoreUI.Controls.cuiButton();
             ban10 = new CuoreUI.Controls.cuiButton();
@@ -50,7 +51,6 @@
             ban5 = new CuoreUI.Controls.cuiButton();
             ban4 = new CuoreUI.Controls.cuiButton();
             ban3 = new CuoreUI.Controls.cuiButton();
-            ban2 = new CuoreUI.Controls.cuiButton();
             ban1 = new CuoreUI.Controls.cuiButton();
             guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             cuiPanel1 = new CuoreUI.Controls.cuiPanel();
@@ -104,6 +104,7 @@
             // cuiPanel5
             // 
             cuiPanel5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            cuiPanel5.Controls.Add(ban2);
             cuiPanel5.Controls.Add(ban12);
             cuiPanel5.Controls.Add(ban11);
             cuiPanel5.Controls.Add(ban10);
@@ -114,7 +115,6 @@
             cuiPanel5.Controls.Add(ban5);
             cuiPanel5.Controls.Add(ban4);
             cuiPanel5.Controls.Add(ban3);
-            cuiPanel5.Controls.Add(ban2);
             cuiPanel5.Controls.Add(ban1);
             cuiPanel5.Location = new Point(12, 11);
             cuiPanel5.Name = "cuiPanel5";
@@ -124,6 +124,46 @@
             cuiPanel5.Rounding = new Padding(8);
             cuiPanel5.Size = new Size(624, 634);
             cuiPanel5.TabIndex = 0;
+            // 
+            // ban2
+            // 
+            ban2.Anchor = AnchorStyles.Top;
+            ban2.AutoSize = true;
+            ban2.CheckButton = false;
+            ban2.Checked = false;
+            ban2.CheckedBackground = Color.FromArgb(255, 106, 0);
+            ban2.CheckedForeColor = Color.White;
+            ban2.CheckedImageTint = Color.White;
+            ban2.CheckedOutline = Color.FromArgb(255, 106, 0);
+            ban2.Content = "Bàn 2";
+            ban2.DialogResult = DialogResult.None;
+            ban2.Font = new Font("Calibri", 20.25F, FontStyle.Bold);
+            ban2.ForeColor = Color.White;
+            ban2.HoverBackground = Color.Lime;
+            ban2.HoverForeColor = Color.White;
+            ban2.HoverImageTint = Color.White;
+            ban2.HoverOutline = Color.FromArgb(32, 128, 128, 128);
+            ban2.Image = null;
+            ban2.ImageAutoCenter = true;
+            ban2.ImageExpand = new Point(0, 0);
+            ban2.ImageOffset = new Point(0, 0);
+            ban2.Location = new Point(231, 23);
+            ban2.Name = "ban2";
+            ban2.NormalBackground = Color.SteelBlue;
+            ban2.NormalForeColor = Color.White;
+            ban2.NormalImageTint = Color.White;
+            ban2.NormalOutline = Color.FromArgb(64, 128, 128, 128);
+            ban2.OutlineThickness = 1F;
+            ban2.PressedBackground = Color.WhiteSmoke;
+            ban2.PressedForeColor = Color.FromArgb(32, 32, 32);
+            ban2.PressedImageTint = Color.White;
+            ban2.PressedOutline = Color.FromArgb(64, 128, 128, 128);
+            ban2.Rounding = new Padding(8);
+            ban2.Size = new Size(153, 125);
+            ban2.TabIndex = 12;
+            ban2.TextAlignment = StringAlignment.Center;
+            ban2.TextOffset = new Point(0, 0);
+            ban2.Click += Table_Click;
             // 
             // ban12
             // 
@@ -512,45 +552,6 @@
             ban3.TextOffset = new Point(0, 0);
             ban3.Click += Table_Click;
             // 
-            // ban2
-            // 
-            ban2.Anchor = AnchorStyles.Top;
-            ban2.CheckButton = false;
-            ban2.Checked = false;
-            ban2.CheckedBackground = Color.FromArgb(255, 106, 0);
-            ban2.CheckedForeColor = Color.White;
-            ban2.CheckedImageTint = Color.White;
-            ban2.CheckedOutline = Color.FromArgb(255, 106, 0);
-            ban2.Content = "Bàn 2";
-            ban2.DialogResult = DialogResult.None;
-            ban2.Font = new Font("Calibri", 20.25F, FontStyle.Bold);
-            ban2.ForeColor = Color.White;
-            ban2.HoverBackground = Color.Lime;
-            ban2.HoverForeColor = Color.White;
-            ban2.HoverImageTint = Color.White;
-            ban2.HoverOutline = Color.FromArgb(32, 128, 128, 128);
-            ban2.Image = null;
-            ban2.ImageAutoCenter = true;
-            ban2.ImageExpand = new Point(0, 0);
-            ban2.ImageOffset = new Point(0, 0);
-            ban2.Location = new Point(231, 23);
-            ban2.Name = "ban2";
-            ban2.NormalBackground = Color.SteelBlue;
-            ban2.NormalForeColor = Color.White;
-            ban2.NormalImageTint = Color.White;
-            ban2.NormalOutline = Color.FromArgb(64, 128, 128, 128);
-            ban2.OutlineThickness = 1F;
-            ban2.PressedBackground = Color.WhiteSmoke;
-            ban2.PressedForeColor = Color.FromArgb(32, 32, 32);
-            ban2.PressedImageTint = Color.White;
-            ban2.PressedOutline = Color.FromArgb(64, 128, 128, 128);
-            ban2.Rounding = new Padding(8);
-            ban2.Size = new Size(153, 125);
-            ban2.TabIndex = 1;
-            ban2.TextAlignment = StringAlignment.Center;
-            ban2.TextOffset = new Point(0, 0);
-            ban2.Click += Table_Click;
-            // 
             // ban1
             // 
             ban1.CheckButton = false;
@@ -649,7 +650,7 @@
             dtPThoiGianThanhToan.FillColor = Color.SteelBlue;
             dtPThoiGianThanhToan.Font = new Font("Segoe UI", 9F);
             dtPThoiGianThanhToan.Format = DateTimePickerFormat.Time;
-            dtPThoiGianThanhToan.Location = new Point(232, 506);
+            dtPThoiGianThanhToan.Location = new Point(226, 506);
             dtPThoiGianThanhToan.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtPThoiGianThanhToan.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtPThoiGianThanhToan.Name = "dtPThoiGianThanhToan";
@@ -845,6 +846,7 @@
             groupBox1.ResumeLayout(false);
             cuiPanel4.ResumeLayout(false);
             cuiPanel5.ResumeLayout(false);
+            cuiPanel5.PerformLayout();
             cuiPanel1.ResumeLayout(false);
             cuiPanel2.ResumeLayout(false);
             cuiPanel2.PerformLayout();
@@ -882,8 +884,8 @@
         private CuoreUI.Controls.cuiButton ban5;
         private CuoreUI.Controls.cuiButton ban4;
         private CuoreUI.Controls.cuiButton ban3;
-        private CuoreUI.Controls.cuiButton ban2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtPThoiGianThanhToan;
+        private CuoreUI.Controls.cuiButton ban2;
     }
 }

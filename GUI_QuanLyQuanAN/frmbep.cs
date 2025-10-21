@@ -52,12 +52,12 @@ namespace GUI_QuanLyQuanAN
         /// </summary>
         private void LoadPendingOrders()
         {
-            uiDataGridView1.DataSource = busHoaDon.GetAllUnpaidHoaDonWithTable();
+            dgvtrai.DataSource = busHoaDon.GetAllUnpaidHoaDonWithTable();
             // Tùy chỉnh cột
-            uiDataGridView1.Columns["ID_HoaDon"].HeaderText = "Mã HĐ";
-            uiDataGridView1.Columns["TenBan"].HeaderText = "Tên Bàn";
-            uiDataGridView1.Columns["ThoiGianVao"].HeaderText = "Thời Gian Vào";
-            uiDataGridView1.Columns["ThoiGianVao"].DefaultCellStyle.Format = "HH:mm:ss";
+            dgvtrai.Columns["ID_HoaDon"].HeaderText = "Mã HĐ";
+            dgvtrai.Columns["TenBan"].HeaderText = "Tên Bàn";
+            dgvtrai.Columns["ThoiGianVao"].HeaderText = "Thời Gian Vào";
+            dgvtrai.Columns["ThoiGianVao"].DefaultCellStyle.Format = "HH:mm:ss";
         }
 
         /// <summary>
@@ -67,6 +67,7 @@ namespace GUI_QuanLyQuanAN
         {
             labbanorder.Text = "số";
             uiDataGridView2.DataSource = null;
+            dgvtrai.Refresh();
             labloighichu.Text = "(Không có ghi chú)";
             currentInvoiceId = -1;
         }
@@ -90,7 +91,7 @@ namespace GUI_QuanLyQuanAN
         {
             if (e.RowIndex >= 0)
             {
-                DataGridViewRow row = uiDataGridView1.Rows[e.RowIndex];
+                DataGridViewRow row = dgvtrai.Rows[e.RowIndex];
                 currentInvoiceId = Convert.ToInt32(row.Cells["ID_HoaDon"].Value);
                 string tenBan = row.Cells["TenBan"].Value.ToString();
 

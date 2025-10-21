@@ -131,10 +131,7 @@ namespace GUI_QuanLyQuanAN
 
         private void thoatchuongtrinh_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc chắn muốn thoát chương trình?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
                 Application.Exit();
-            }
         }
 
         private void vetrangchu_Click(object sender, EventArgs e)
