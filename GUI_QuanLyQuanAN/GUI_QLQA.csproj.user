@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="frmbanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmbep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmchamcong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCongThuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmInputQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmkho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmlichsu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmlichsunhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmNhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmChiTietPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmThongkedoanhthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmResetPW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
