@@ -13,10 +13,6 @@ namespace BLL_QLQA
     {
         private DALChiTietPhieuNhap dalChiTietPN = new DALChiTietPhieuNhap();
 
-        public DataTable GetChiTietByPhieuNhap(int idPhieuNhap)
-        {
-            return dalChiTietPN.GetChiTietByPhieuNhap(idPhieuNhap);
-        }
         //select by sql
         public List<DTO_QLQA.ChiTietPhieuNhap> SelectBySql(string sql, List<object> args, CommandType cmdType = CommandType.Text)
         {
@@ -28,36 +24,39 @@ namespace BLL_QLQA
             return dalChiTietPN.SelectByMaPhieuNhap(maPhieuNhap);
         }
         //insert chi tiết phiếu nhập
-        public void InsertChiTietPhieuNhap(DTO_QLQA.ChiTietPhieuNhap ctpn)
+        public void InsertChiTietPhieuNhap(ChiTietPhieuNhap ctpn)
         {
             dalChiTietPN.InsertChiTietPhieuNhap(ctpn);
         }
-        //update chi tiết phiếu nhập
-        public void UpdateChiTietPhieuNhap(DTO_QLQA.ChiTietPhieuNhap ctpn)
-        {
-            dalChiTietPN.UpdateChiTietPhieuNhap(ctpn);
-        }
-        //delete chi tiết phiếu nhập
+
         public void DeleteChiTietPhieuNhap(int idPhieuNhap, string maNguyenLieu)
         {
             dalChiTietPN.DeleteChiTietPhieuNhap(idPhieuNhap, maNguyenLieu);
         }
-        //updatesoluong
-        public void UpdateSoLuongNhap(ChiTietPhieuNhap ct)
+
+        public void UpdateSoLuong(ChiTietPhieuNhap ct)
         {
             dalChiTietPN.updatesoluong(ct);
         }
-        // Trong BUSChiTietPhieuNhap.cs
 
         public decimal GetLastImportPrice(string maNguyenLieu)
         {
             object result = dalChiTietPN.GetLastImportPrice(maNguyenLieu);
-            // Nếu không tìm thấy giá nhập (sản phẩm mới), trả về 0
-            if (result == null || result == DBNull.Value)
-            {
-                return 0;
-            }
+            if (result == null || result == DBNull.Value) return 0;
             return Convert.ToDecimal(result);
+        }
+
+        /// <summary>
+        /// Wrapper để cập nhật tồn kho khi một phiếu nhập được lưu.
+        /// </summary>
+        public bool ApplyImportToStock(int idPhieuNhap)
+        {
+            return dalChiTietPN.ApplyImportToStock(idPhieuNhap);
+        }
+
+        public DataTable GetChiTietByPhieuNhap(int idPhieuNhap)
+        {
+            return dalChiTietPN.GetChiTietByPhieuNhap(idPhieuNhap);
         }
     }
 }

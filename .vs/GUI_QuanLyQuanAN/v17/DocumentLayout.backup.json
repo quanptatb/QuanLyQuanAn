@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\gui_quanlyquanan\\gui_quanlyquanan\\frmcongthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmcongthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\gui_quanlyquanan\\gui_quanlyquanan\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\gui_quanlyquanan\\gui_quanlyquanan\\frmbep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmbep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\gui_quanlyquanan\\gui_quanlyquanan\\frmbep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmbep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\gui_quanlyquanan\\gui_quanlyquanan\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\gui_quanlyquanan\\gui_quanlyquanan\\frmchamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmchamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\gui_quanlyquanan\\gui_quanlyquanan\\frmbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\gui_quanlyquanan\\gui_quanlyquanan\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,50 +43,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmbep.cs",
-              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmbep.cs",
-              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmbep.cs",
-              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmbep.cs*",
-              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmbep.cs*",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAJ0AAAABAAAAAAAAAA==",
+              "Title": "frmCongThuc.cs",
+              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmCongThuc.cs",
+              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmCongThuc.cs",
+              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmCongThuc.cs*",
+              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmCongThuc.cs*",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:38:32.297Z",
+              "WhenOpened": "2025-10-21T18:03:21.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmchamcong.cs [Design]",
-              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmchamcong.cs",
-              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmchamcong.cs",
-              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmchamcong.cs [Design]",
-              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmchamcong.cs [Design]",
+              "Title": "frmbep.cs",
+              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmbep.cs",
+              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmbep.cs",
+              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmbep.cs",
+              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmbep.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:38:24.377Z",
+              "WhenOpened": "2025-10-21T18:05:34.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmLogin.cs",
+              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmLogin.cs",
+              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmLogin.cs [Design]",
+              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T18:02:26.469Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmbep.cs [Design]",
-              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmbep.cs",
-              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmbep.cs",
-              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmbep.cs [Design]*",
-              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmbep.cs [Design]*",
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmMain.cs",
+              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmMain.cs",
+              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmMain.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:38:23.141Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-21T18:01:53.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmbanan.cs [Design]",
-              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmbanan.cs",
-              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmbanan.cs",
-              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmbanan.cs [Design]",
-              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmbanan.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmMain.cs",
+              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmMain.cs [Design]",
+              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T17:38:19.406Z",
+              "WhenOpened": "2025-10-21T18:00:08.522Z",
               "EditorCaption": " [Design]"
             }
           ]

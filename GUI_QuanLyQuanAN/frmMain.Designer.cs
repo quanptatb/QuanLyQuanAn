@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             cuiPanel1 = new CuoreUI.Controls.cuiPanel();
+            btnCongThuc = new CuoreUI.Controls.cuiButton();
             btndoimk = new CuoreUI.Controls.cuiButton();
             btndangxuat = new CuoreUI.Controls.cuiButton();
             btnbep = new CuoreUI.Controls.cuiButton();
@@ -62,6 +63,7 @@
             // cuiPanel1
             // 
             cuiPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            cuiPanel1.Controls.Add(btnCongThuc);
             cuiPanel1.Controls.Add(btndoimk);
             cuiPanel1.Controls.Add(btndangxuat);
             cuiPanel1.Controls.Add(btnbep);
@@ -79,8 +81,49 @@
             cuiPanel1.PanelColor = Color.SteelBlue;
             cuiPanel1.PanelOutlineColor = Color.SteelBlue;
             cuiPanel1.Rounding = new Padding(8);
-            cuiPanel1.Size = new Size(252, 786);
+            cuiPanel1.Size = new Size(252, 881);
             cuiPanel1.TabIndex = 0;
+            // 
+            // btnCongThuc
+            // 
+            btnCongThuc.BackColor = Color.SteelBlue;
+            btnCongThuc.BackgroundImageLayout = ImageLayout.None;
+            btnCongThuc.CheckButton = false;
+            btnCongThuc.Checked = false;
+            btnCongThuc.CheckedBackground = Color.FromArgb(255, 106, 0);
+            btnCongThuc.CheckedForeColor = Color.White;
+            btnCongThuc.CheckedImageTint = Color.White;
+            btnCongThuc.CheckedOutline = Color.FromArgb(255, 106, 0);
+            btnCongThuc.Content = "Công thức";
+            btnCongThuc.DialogResult = DialogResult.None;
+            btnCongThuc.Font = new Font("Calibri", 14.25F, FontStyle.Bold);
+            btnCongThuc.ForeColor = Color.White;
+            btnCongThuc.HoverBackground = Color.Teal;
+            btnCongThuc.HoverForeColor = Color.White;
+            btnCongThuc.HoverImageTint = Color.White;
+            btnCongThuc.HoverOutline = Color.FromArgb(32, 128, 128, 128);
+            btnCongThuc.Image = (Image)resources.GetObject("btnCongThuc.Image");
+            btnCongThuc.ImageAutoCenter = true;
+            btnCongThuc.ImageExpand = new Point(0, 0);
+            btnCongThuc.ImageOffset = new Point(0, 0);
+            btnCongThuc.Location = new Point(0, 583);
+            btnCongThuc.Name = "btnCongThuc";
+            btnCongThuc.NormalBackground = Color.SteelBlue;
+            btnCongThuc.NormalForeColor = Color.White;
+            btnCongThuc.NormalImageTint = Color.White;
+            btnCongThuc.NormalOutline = Color.FromArgb(64, 128, 128, 128);
+            btnCongThuc.OutlineThickness = 1F;
+            btnCongThuc.PressedBackground = Color.WhiteSmoke;
+            btnCongThuc.PressedForeColor = Color.FromArgb(32, 32, 32);
+            btnCongThuc.PressedImageTint = Color.White;
+            btnCongThuc.PressedOutline = Color.FromArgb(64, 128, 128, 128);
+            btnCongThuc.RightToLeft = RightToLeft.Yes;
+            btnCongThuc.Rounding = new Padding(8);
+            btnCongThuc.Size = new Size(248, 45);
+            btnCongThuc.TabIndex = 12;
+            btnCongThuc.TextAlignment = StringAlignment.Center;
+            btnCongThuc.TextOffset = new Point(0, 0);
+            btnCongThuc.Click += btnCongThuc_Click;
             // 
             // btndoimk
             // 
@@ -104,7 +147,7 @@
             btndoimk.ImageAutoCenter = true;
             btndoimk.ImageExpand = new Point(0, 0);
             btndoimk.ImageOffset = new Point(0, 0);
-            btndoimk.Location = new Point(5, 685);
+            btndoimk.Location = new Point(5, 782);
             btndoimk.Name = "btndoimk";
             btndoimk.NormalBackground = Color.SteelBlue;
             btndoimk.NormalForeColor = Color.White;
@@ -145,7 +188,7 @@
             btndangxuat.ImageAutoCenter = true;
             btndangxuat.ImageExpand = new Point(0, 0);
             btndangxuat.ImageOffset = new Point(0, 0);
-            btndangxuat.Location = new Point(0, 736);
+            btndangxuat.Location = new Point(0, 833);
             btndangxuat.Name = "btndangxuat";
             btndangxuat.NormalBackground = Color.SteelBlue;
             btndangxuat.NormalForeColor = Color.White;
@@ -268,7 +311,7 @@
             btnthongke.ImageAutoCenter = true;
             btnthongke.ImageExpand = new Point(0, 0);
             btnthongke.ImageOffset = new Point(0, 0);
-            btnthongke.Location = new Point(0, 634);
+            btnthongke.Location = new Point(5, 685);
             btnthongke.Name = "btnthongke";
             btnthongke.NormalBackground = Color.SteelBlue;
             btnthongke.NormalForeColor = Color.White;
@@ -309,7 +352,7 @@
             btnkho.ImageAutoCenter = true;
             btnkho.ImageExpand = new Point(0, 0);
             btnkho.ImageOffset = new Point(0, 0);
-            btnkho.Location = new Point(0, 583);
+            btnkho.Location = new Point(1, 634);
             btnkho.Name = "btnkho";
             btnkho.NormalBackground = Color.SteelBlue;
             btnkho.NormalForeColor = Color.White;
@@ -601,7 +644,7 @@
             PICANH.Image = (Image)resources.GetObject("PICANH.Image");
             PICANH.Location = new Point(284, 86);
             PICANH.Name = "PICANH";
-            PICANH.Size = new Size(1033, 712);
+            PICANH.Size = new Size(1033, 807);
             PICANH.SizeMode = PictureBoxSizeMode.StretchImage;
             PICANH.TabIndex = 2;
             PICANH.TabStop = false;
@@ -611,7 +654,7 @@
             AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(224, 224, 224);
-            ClientSize = new Size(1329, 810);
+            ClientSize = new Size(1329, 905);
             Controls.Add(PICANH);
             Controls.Add(cuiPanel2);
             Controls.Add(cuiPanel1);
@@ -655,5 +698,6 @@
         private CuoreUI.Controls.cuiButton btndangxuat;
         private PictureBox pictureBox2;
         private CuoreUI.Controls.cuiButton btndoimk;
+        private CuoreUI.Controls.cuiButton btnCongThuc;
     }
 }

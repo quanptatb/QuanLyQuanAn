@@ -52,7 +52,7 @@
             cuiGroupBox1.Controls.Add(cuiPanel1);
             cuiGroupBox1.Location = new Point(12, 12);
             cuiGroupBox1.Name = "cuiGroupBox1";
-            cuiGroupBox1.Padding = new Padding(4, 27, 4, 4);
+            cuiGroupBox1.Padding = new Padding(4, 34, 4, 4);
             cuiGroupBox1.Rounding = new Padding(4);
             cuiGroupBox1.Size = new Size(857, 459);
             cuiGroupBox1.TabIndex = 1;
@@ -90,7 +90,7 @@
             label1.Cursor = Cursors.Hand;
             label1.Location = new Point(87, 290);
             label1.Name = "label1";
-            label1.Size = new Size(151, 25);
+            label1.Size = new Size(194, 32);
             label1.TabIndex = 6;
             label1.Text = " Quên mật khẩu ";
             label1.Click += lblQuenMatKhau_Click;
@@ -132,6 +132,7 @@
             cuiButton1.TextAlignment = StringAlignment.Center;
             cuiButton1.TextOffset = new Point(0, 0);
             cuiButton1.Click += btnDangNhap_Click;
+            cuiButton1.Enter += btnDangNhap_Click;
             // 
             // txtMatKhau
             // 
@@ -152,7 +153,7 @@
             txtMatKhau.Name = "txtMatKhau";
             txtMatKhau.NormalImageTint = Color.White;
             txtMatKhau.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txtMatKhau.Padding = new Padding(15, 14, 15, 0);
+            txtMatKhau.Padding = new Padding(18, 12, 18, 0);
             txtMatKhau.PasswordChar = false;
             txtMatKhau.PlaceholderColor = SystemColors.WindowText;
             txtMatKhau.PlaceholderText = "";
@@ -182,7 +183,7 @@
             txtTaiKhoan.Name = "txtTaiKhoan";
             txtTaiKhoan.NormalImageTint = Color.White;
             txtTaiKhoan.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txtTaiKhoan.Padding = new Padding(15, 14, 15, 0);
+            txtTaiKhoan.Padding = new Padding(18, 12, 18, 0);
             txtTaiKhoan.PasswordChar = false;
             txtTaiKhoan.PlaceholderColor = SystemColors.WindowText;
             txtTaiKhoan.PlaceholderText = "";
@@ -198,7 +199,7 @@
             guna2HtmlLabel2.Font = new Font("Calibri", 14.25F, FontStyle.Bold);
             guna2HtmlLabel2.Location = new Point(29, 144);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(78, 25);
+            guna2HtmlLabel2.Size = new Size(99, 31);
             guna2HtmlLabel2.TabIndex = 1;
             guna2HtmlLabel2.Text = "Mật khẩu";
             // 
@@ -208,13 +209,13 @@
             guna2HtmlLabel1.Font = new Font("Calibri", 14.25F, FontStyle.Bold);
             guna2HtmlLabel1.Location = new Point(29, 39);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(159, 25);
+            guna2HtmlLabel1.Size = new Size(205, 31);
             guna2HtmlLabel1.TabIndex = 0;
             guna2HtmlLabel1.Text = "Emai hoặc tài khoản";
             // 
             // frmLogin
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(881, 483);
             Controls.Add(cuiGroupBox1);

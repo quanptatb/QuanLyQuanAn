@@ -118,7 +118,7 @@ namespace GUI_QLQA
                 // Nếu đã có, chỉ cộng thêm số lượng
                 existingItem.SoLuongNhap += soLuong;
                 // Cập nhật lại số lượng mới vào database
-                bus.UpdateChiTietPhieuNhap(existingItem);
+                bus.UpdateSoLuong(existingItem);
             }
             else
             {
@@ -172,7 +172,7 @@ namespace GUI_QLQA
 
                     // Gọi lớp Business để thực hiện cập nhật xuống Database
                     BUSChiTietPhieuNhap bus = new BUSChiTietPhieuNhap();
-                    bus.UpdateChiTietPhieuNhap(chiTietToUpdate); // ***Lưu ý quan trọng ở dưới
+                    bus.UpdateSoLuong(chiTietToUpdate); // ***Lưu ý quan trọng ở dưới
 
                     // Tải lại lưới và cập nhật lại giao diện tổng tiền
                     // Dùng BeginInvoke để tránh lỗi xung đột khi đang ở trong sự kiện của grid
@@ -239,12 +239,24 @@ namespace GUI_QLQA
                     // Cập nhật tổng tiền cuối cùng vào đối tượng PhieuNhapKho
                     PhieuNhapKho.TongTienNhap = chiTietPhieuNhaps.Sum(ct => ct.SoLuongNhap * ct.GiaNhap);
 
-                    // Gọi BLL để cập nhật vào database
+                    // Gọi BLL để cập nhật phiếu nhập (lưu phiếu + chi tiết đã có)
                     BUSPhieuNhapKho busPN = new BUSPhieuNhapKho();
                     busPN.UpdatePhieuNhapKho(PhieuNhapKho);
 
-                    MessageBox.Show("Lưu phiếu nhập kho thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Close(); // Đóng form sau khi thành công
+                    // --- MỚI: áp dụng số lượng nhập vào tồn kho ---
+                    BUSChiTietPhieuNhap busCTPN = new BUSChiTietPhieuNhap();
+                    bool stockUpdated = busCTPN.ApplyImportToStock(PhieuNhapKho.ID_PhieuNhap);
+
+                    if (!stockUpdated)
+                    {
+                        MessageBox.Show("Phiếu nhập đã được lưu nhưng cập nhật tồn kho thất bại.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Lưu phiếu nhập kho thành công và đã cập nhật tồn kho!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                    this.Close(); // Đóng form sau khi xử lý xong
                 }
                 catch (Exception ex)
                 {

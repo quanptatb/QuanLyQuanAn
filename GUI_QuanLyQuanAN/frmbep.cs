@@ -109,24 +109,40 @@ namespace GUI_QuanLyQuanAN
 
         /// <summary>
         /// Sự kiện khi nhấn nút "Đã hoàn thành"
+        /// - Gọi BUS để cập nhật trạng thái hóa đơn (ThanhToan)
+        /// - Nếu thành công thì làm mới danh sách và xoá chi tiết đang hiển thị ở dgvtrai
         /// </summary>
         private void cuiButton1_Click(object sender, EventArgs e)
         {
-            if (currentInvoiceId != -1)
-            {
-                // Trong thực tế, có thể cập nhật trạng thái món ăn hoặc hóa đơn
-                // Ở đây, chúng ta chỉ hiển thị thông báo
-                MessageBox.Show($"Đã xác nhận hoàn thành các món cho hóa đơn {currentInvoiceId}.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                // Xóa chi tiết và tải lại danh sách (để loại bỏ order vừa hoàn thành nếu có logic cập nhật CSDL)
-                ClearOrderDetail();
-                LoadPendingOrders();
-            }
-            else
+            if (currentInvoiceId == -1)
             {
                 MessageBox.Show("Vui lòng chọn một order để xác nhận.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
 
+            var confirm = MessageBox.Show($"Bạn có chắc chắn xác nhận hoàn thành các món cho hóa đơn {currentInvoiceId}?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirm != DialogResult.Yes) return;
+
+            try
+            {
+                // Cập nhật trạng thái hóa đơn sang "Đã thanh toán" (hoặc tương đương) qua BUS
+                bool ok = busHoaDon.ThanhToan(currentInvoiceId);
+                if (ok)
+                {
+                    // Thông báo thành công, xoá chi tiết hiển thị và tải lại danh sách (dgvtrai sẽ không còn order này nếu BUS/DAL trả về đúng)
+                    MessageBox.Show($"Đã xác nhận hoàn thành các món cho hóa đơn {currentInvoiceId}.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ClearOrderDetail();
+                    LoadPendingOrders();
+                }
+                else
+                {
+                    MessageBox.Show("Không thể cập nhật trạng thái hóa đơn. Vui lòng kiểm tra cơ sở dữ liệu hoặc thử lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi khi cập nhật hóa đơn: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         /// <summary>

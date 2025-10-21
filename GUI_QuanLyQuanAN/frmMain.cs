@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUI_QLQA;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -131,7 +132,7 @@ namespace GUI_QuanLyQuanAN
 
         private void thoatchuongtrinh_Click(object sender, EventArgs e)
         {
-                Application.Exit();
+            Application.Exit();
         }
 
         private void vetrangchu_Click(object sender, EventArgs e)
@@ -186,6 +187,12 @@ namespace GUI_QuanLyQuanAN
         {
             openChildForm(new frmmenu());
             labtenfrm.Text = "Menu";
+        }
+
+        private void btnCongThuc_Click(object sender, EventArgs e)
+        {
+            openChildForm(new frmCongThuc());
+            labtenfrm.Text = "Công Thức";
         }
     }
 }

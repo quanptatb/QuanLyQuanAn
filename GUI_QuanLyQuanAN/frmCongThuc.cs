@@ -79,9 +79,9 @@ namespace GUI_QLQA
 
         private void ResetFields()
         {
-            txtmamon.Text = "";
-            txttenmon.Text = "";
-            numSoLuongTieuHao.Text = "";
+            txtmamon.Content = "";
+            txttenmon.Content = "";
+            numSoLuongTieuHao.Content = "";
             currentMaMon = null;
             // dgvCongThuc.DataSource = null;
             // cboNguyenLieu.SelectedIndex = -1;
