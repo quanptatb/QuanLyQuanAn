@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DTO_QLQA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+153636ad60ce3932c78c0528316a6c145f4278a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+920c13e5b734a38289ded1effaebdf7cfba2b6c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DTO_QLQA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DTO_QLQA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

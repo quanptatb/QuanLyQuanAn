@@ -1809,17 +1809,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\BLL_QLQA\\BLL_QLQA.csproj",
+      "projectUniqueName": "D:\\Work\\Project\\QuanLyQuanAn\\BLL_QLQA\\BLL_QLQA.csproj",
       "projectName": "BLL_QLQA",
-      "projectPath": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\BLL_QLQA\\BLL_QLQA.csproj",
+      "projectPath": "D:\\Work\\Project\\QuanLyQuanAn\\BLL_QLQA\\BLL_QLQA.csproj",
       "packagesPath": "C:\\Users\\Cua\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\BLL_QLQA\\obj\\",
+      "outputPath": "D:\\Work\\Project\\QuanLyQuanAn\\BLL_QLQA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "D:\\Work\\Project\\GUI_QuanLyQuanAN\\NuGet.Config",
+        "D:\\Work\\Project\\QuanLyQuanAn\\NuGet.Config",
         "C:\\Users\\Cua\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1835,14 +1835,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Work\\Project\\GUI_QuanLyQuanAN\\DAL_QLQA\\DAL_QLQA.csproj": {
-              "projectPath": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\DAL_QLQA\\DAL_QLQA.csproj"
+            "D:\\Work\\Project\\QuanLyQuanAn\\DAL_QLQA\\DAL_QLQA.csproj": {
+              "projectPath": "D:\\Work\\Project\\QuanLyQuanAn\\DAL_QLQA\\DAL_QLQA.csproj"
             },
-            "D:\\Work\\Project\\GUI_QuanLyQuanAN\\DTO_QLQA\\DTO_QLQA.csproj": {
-              "projectPath": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\DTO_QLQA\\DTO_QLQA.csproj"
+            "D:\\Work\\Project\\QuanLyQuanAn\\DTO_QLQA\\DTO_QLQA.csproj": {
+              "projectPath": "D:\\Work\\Project\\QuanLyQuanAn\\DTO_QLQA\\DTO_QLQA.csproj"
             },
-            "D:\\Work\\Project\\GUI_QuanLyQuanAN\\UTIL_QLQA\\UTIL_QLQA.csproj": {
-              "projectPath": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\UTIL_QLQA\\UTIL_QLQA.csproj"
+            "D:\\Work\\Project\\QuanLyQuanAn\\UTIL_QLQA\\UTIL_QLQA.csproj": {
+              "projectPath": "D:\\Work\\Project\\QuanLyQuanAn\\UTIL_QLQA\\UTIL_QLQA.csproj"
             }
           }
         }

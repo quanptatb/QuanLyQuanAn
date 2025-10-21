@@ -61,5 +61,23 @@ namespace DAL_QLQA
             parameters[0] = new SqlParameter("@Ten", SqlDbType.NVarChar) { Value = "%" + tenNL + "%" };
             return DBUtil.ExecuteQuery(sql, parameters);
         }
+
+        //generate new MaNguyenLieu
+        public string GenerateNewMaNguyenLieu()
+        {
+            string sql = "SELECT TOP 1 MaNguyenLieu FROM NguyenLieu ORDER BY MaNguyenLieu DESC";
+            DataTable dt = DBUtil.ExecuteQuery(sql);
+            if (dt.Rows.Count > 0)
+            {
+                string lastMa = dt.Rows[0]["MaNguyenLieu"].ToString();
+                int numericPart = int.Parse(lastMa.Substring(2));
+                numericPart++;
+                return "NL" + numericPart.ToString("D3");
+            }
+            else
+            {
+                return "NL001";
+            }
+        }
     }
 }

@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\",
+  "WorkspaceRootPath": "D:\\Work\\Project\\QuanLyQuanAn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\gui_quanlyquanan\\gui_quanlyquanan\\frmcongthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmcongthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCA1104F-4E11-4B64-91FC-04F055BABF75}|DAL_QLQA\\DAL_QLQA.csproj|d:\\work\\project\\quanlyquanan\\dal_qlqa\\dalnguyenlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCA1104F-4E11-4B64-91FC-04F055BABF75}|DAL_QLQA\\DAL_QLQA.csproj|solutionrelative:dal_qlqa\\dalnguyenlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\gui_quanlyquanan\\gui_quanlyquanan\\frmcongthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4E98042B-1D46-4A14-AAA7-7D463ED31A5A}|DTO_QLQA\\DTO_QLQA.csproj|d:\\work\\project\\quanlyquanan\\dto_qlqa\\nguyenlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E98042B-1D46-4A14-AAA7-7D463ED31A5A}|DTO_QLQA\\DTO_QLQA.csproj|solutionrelative:dto_qlqa\\nguyenlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\quanlyquanan\\gui_quanlyquanan\\frmkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\quanlyquanan\\gui_quanlyquanan\\frmkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\quanlyquanan\\gui_quanlyquanan\\frmcongthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmcongthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|d:\\work\\project\\quanlyquanan\\gui_quanlyquanan\\frmcongthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E97736-6D9B-4D5B-A8E2-7B6090B1BDDA}|GUI_QuanLyQuanAN\\GUI_QLQA.csproj|solutionrelative:gui_quanlyquanan\\frmcongthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,27 +46,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmCongThuc.cs [Design]",
-              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmCongThuc.cs",
-              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmCongThuc.cs",
-              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmCongThuc.cs [Design]",
-              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmCongThuc.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "DALNguyenLieu.cs",
+              "DocumentMoniker": "D:\\Work\\Project\\QuanLyQuanAn\\DAL_QLQA\\DALNguyenLieu.cs",
+              "RelativeDocumentMoniker": "DAL_QLQA\\DALNguyenLieu.cs",
+              "ToolTip": "D:\\Work\\Project\\QuanLyQuanAn\\DAL_QLQA\\DALNguyenLieu.cs",
+              "RelativeToolTip": "DAL_QLQA\\DALNguyenLieu.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAFAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T18:09:38.342Z",
+              "WhenOpened": "2025-10-21T19:59:41.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NguyenLieu.cs",
+              "DocumentMoniker": "D:\\Work\\Project\\QuanLyQuanAn\\DTO_QLQA\\NguyenLieu.cs",
+              "RelativeDocumentMoniker": "DTO_QLQA\\NguyenLieu.cs",
+              "ToolTip": "D:\\Work\\Project\\QuanLyQuanAn\\DTO_QLQA\\NguyenLieu.cs",
+              "RelativeToolTip": "DTO_QLQA\\NguyenLieu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:59:38.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmkho.cs",
+              "DocumentMoniker": "D:\\Work\\Project\\QuanLyQuanAn\\GUI_QuanLyQuanAN\\frmkho.cs",
+              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmkho.cs",
+              "ToolTip": "D:\\Work\\Project\\QuanLyQuanAn\\GUI_QuanLyQuanAN\\frmkho.cs",
+              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmkho.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowE0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:57:03.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmkho.cs [Design]",
+              "DocumentMoniker": "D:\\Work\\Project\\QuanLyQuanAn\\GUI_QuanLyQuanAN\\frmkho.cs",
+              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmkho.cs",
+              "ToolTip": "D:\\Work\\Project\\QuanLyQuanAn\\GUI_QuanLyQuanAN\\frmkho.cs [Design]",
+              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmkho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:56:56.921Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmCongThuc.cs",
-              "DocumentMoniker": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmCongThuc.cs",
+              "DocumentIndex": 4,
+              "Title": "frmCongThuc.cs [Design]",
+              "DocumentMoniker": "D:\\Work\\Project\\QuanLyQuanAn\\GUI_QuanLyQuanAN\\frmCongThuc.cs",
               "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmCongThuc.cs",
-              "ToolTip": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\GUI_QuanLyQuanAN\\frmCongThuc.cs",
-              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmCongThuc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Work\\Project\\QuanLyQuanAn\\GUI_QuanLyQuanAN\\frmCongThuc.cs [Design]",
+              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmCongThuc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T18:03:21.352Z",
+              "WhenOpened": "2025-10-21T19:27:53.548Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmCongThuc.cs",
+              "DocumentMoniker": "D:\\Work\\Project\\QuanLyQuanAn\\GUI_QuanLyQuanAN\\frmCongThuc.cs",
+              "RelativeDocumentMoniker": "GUI_QuanLyQuanAN\\frmCongThuc.cs",
+              "ToolTip": "D:\\Work\\Project\\QuanLyQuanAn\\GUI_QuanLyQuanAN\\frmCongThuc.cs",
+              "RelativeToolTip": "GUI_QuanLyQuanAN\\frmCongThuc.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAIwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:20:23.129Z",
               "EditorCaption": ""
             }
           ]

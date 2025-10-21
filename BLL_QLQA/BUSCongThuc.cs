@@ -31,6 +31,8 @@ namespace BLL_QLQA
                     MaMon = row["MaMon"].ToString(),
                     MaNguyenLieu = row["MaNguyenLieu"].ToString(),
                     SoLuongTieuHao = Convert.ToDecimal(row["SoLuongTieuHao"]),
+                    TenNguyenLieu = row["TenNguyenLieu"]?.ToString(),
+                    DonViTinh = row["DonViTinh"]?.ToString()
                 };
                 listCongThuc.Add(ct);
             }
@@ -88,6 +90,12 @@ namespace BLL_QLQA
                 return false;
             }
             return dalCongThuc.DeleteCongThuc(maMonAn, maNguyenLieu);
+        }
+
+        // in BUSCongThuc, add a method that returns DataTable (or expose DAL result)
+        public DataTable GetCongThucDataTableByMaMonAn(string maMon)
+        {
+            return dalCongThuc.GetCongThucByMaMonAn(maMon);
         }
     }
 }

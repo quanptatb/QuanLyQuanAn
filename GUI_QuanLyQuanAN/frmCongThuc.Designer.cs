@@ -45,6 +45,7 @@
             btnbothaydoi = new CuoreUI.Controls.cuiButton();
             numSoLuongTieuHao = new CuoreUI.Controls.cuiTextBox();
             txtmamon = new CuoreUI.Controls.cuiTextBox();
+            txttenmon = new CuoreUI.Controls.cuiTextBox();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -84,7 +85,8 @@
             btnluuthaydoi.ImageAutoCenter = true;
             btnluuthaydoi.ImageExpand = new Point(0, 0);
             btnluuthaydoi.ImageOffset = new Point(0, 0);
-            btnluuthaydoi.Location = new Point(219, 518);
+            btnluuthaydoi.Location = new Point(250, 691);
+            btnluuthaydoi.Margin = new Padding(3, 4, 3, 4);
             btnluuthaydoi.Name = "btnluuthaydoi";
             btnluuthaydoi.NormalBackground = Color.SteelBlue;
             btnluuthaydoi.NormalForeColor = Color.White;
@@ -96,7 +98,7 @@
             btnluuthaydoi.PressedImageTint = Color.White;
             btnluuthaydoi.PressedOutline = Color.FromArgb(64, 128, 128, 128);
             btnluuthaydoi.Rounding = new Padding(8);
-            btnluuthaydoi.Size = new Size(178, 45);
+            btnluuthaydoi.Size = new Size(203, 60);
             btnluuthaydoi.TabIndex = 10;
             btnluuthaydoi.TextAlignment = StringAlignment.Center;
             btnluuthaydoi.TextOffset = new Point(0, 0);
@@ -123,7 +125,8 @@
             btnbothaydoi.ImageAutoCenter = true;
             btnbothaydoi.ImageExpand = new Point(0, 0);
             btnbothaydoi.ImageOffset = new Point(0, 0);
-            btnbothaydoi.Location = new Point(26, 518);
+            btnbothaydoi.Location = new Point(30, 691);
+            btnbothaydoi.Margin = new Padding(3, 4, 3, 4);
             btnbothaydoi.Name = "btnbothaydoi";
             btnbothaydoi.NormalBackground = Color.SteelBlue;
             btnbothaydoi.NormalForeColor = Color.White;
@@ -135,7 +138,7 @@
             btnbothaydoi.PressedImageTint = Color.White;
             btnbothaydoi.PressedOutline = Color.FromArgb(64, 128, 128, 128);
             btnbothaydoi.Rounding = new Padding(8);
-            btnbothaydoi.Size = new Size(178, 45);
+            btnbothaydoi.Size = new Size(203, 60);
             btnbothaydoi.TabIndex = 9;
             btnbothaydoi.TextAlignment = StringAlignment.Center;
             btnbothaydoi.TextOffset = new Point(0, 0);
@@ -154,18 +157,18 @@
             numSoLuongTieuHao.Image = null;
             numSoLuongTieuHao.ImageExpand = new Point(0, 0);
             numSoLuongTieuHao.ImageOffset = new Point(0, 0);
-            numSoLuongTieuHao.Location = new Point(26, 451);
-            numSoLuongTieuHao.Margin = new Padding(4);
+            numSoLuongTieuHao.Location = new Point(30, 601);
+            numSoLuongTieuHao.Margin = new Padding(5, 5, 5, 5);
             numSoLuongTieuHao.Multiline = false;
             numSoLuongTieuHao.Name = "numSoLuongTieuHao";
             numSoLuongTieuHao.NormalImageTint = Color.White;
             numSoLuongTieuHao.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            numSoLuongTieuHao.Padding = new Padding(15, 10, 15, 0);
+            numSoLuongTieuHao.Padding = new Padding(18, 14, 18, 0);
             numSoLuongTieuHao.PasswordChar = false;
             numSoLuongTieuHao.PlaceholderColor = SystemColors.WindowText;
             numSoLuongTieuHao.PlaceholderText = "";
             numSoLuongTieuHao.Rounding = new Padding(8);
-            numSoLuongTieuHao.Size = new Size(371, 35);
+            numSoLuongTieuHao.Size = new Size(424, 47);
             numSoLuongTieuHao.TabIndex = 7;
             numSoLuongTieuHao.TextOffset = new Size(0, 0);
             numSoLuongTieuHao.UnderlinedStyle = true;
@@ -183,29 +186,59 @@
             txtmamon.Image = null;
             txtmamon.ImageExpand = new Point(0, 0);
             txtmamon.ImageOffset = new Point(0, 0);
-            txtmamon.Location = new Point(26, 357);
-            txtmamon.Margin = new Padding(4);
+            txtmamon.Location = new Point(30, 476);
+            txtmamon.Margin = new Padding(5, 5, 5, 5);
             txtmamon.Multiline = false;
             txtmamon.Name = "txtmamon";
             txtmamon.NormalImageTint = Color.White;
             txtmamon.OutlineColor = Color.FromArgb(128, 128, 128, 128);
-            txtmamon.Padding = new Padding(15, 10, 15, 0);
+            txtmamon.Padding = new Padding(18, 14, 18, 0);
             txtmamon.PasswordChar = false;
             txtmamon.PlaceholderColor = SystemColors.WindowText;
             txtmamon.PlaceholderText = "";
             txtmamon.Rounding = new Padding(8);
-            txtmamon.Size = new Size(156, 35);
+            txtmamon.Size = new Size(178, 47);
             txtmamon.TabIndex = 5;
             txtmamon.TextOffset = new Size(0, 0);
             txtmamon.UnderlinedStyle = true;
+            // 
+            // txttenmon
+            // 
+            txttenmon.BackColor = Color.FromArgb(224, 224, 224);
+            txttenmon.BackgroundColor = Color.White;
+            txttenmon.Content = "";
+            txttenmon.FocusBackgroundColor = Color.White;
+            txttenmon.FocusImageTint = Color.White;
+            txttenmon.FocusOutlineColor = Color.FromArgb(255, 106, 0);
+            txttenmon.Font = new Font("Microsoft Sans Serif", 9.5F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txttenmon.ForeColor = Color.Gray;
+            txttenmon.Image = null;
+            txttenmon.ImageExpand = new Point(0, 0);
+            txttenmon.ImageOffset = new Point(0, 0);
+            txttenmon.Location = new Point(217, 536);
+            txttenmon.Margin = new Padding(5, 5, 5, 5);
+            txttenmon.Multiline = false;
+            txttenmon.Name = "txttenmon";
+            txttenmon.NormalImageTint = Color.White;
+            txttenmon.OutlineColor = Color.FromArgb(128, 128, 128, 128);
+            txttenmon.Padding = new Padding(18, 14, 18, 0);
+            txttenmon.PasswordChar = false;
+            txttenmon.PlaceholderColor = SystemColors.WindowText;
+            txttenmon.PlaceholderText = "";
+            txttenmon.Rounding = new Padding(8);
+            txttenmon.Size = new Size(237, 47);
+            txttenmon.TabIndex = 6;
+            txttenmon.TextOffset = new Size(0, 0);
+            txttenmon.UnderlinedStyle = true;
             // 
             // guna2HtmlLabel3
             // 
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Calibri", 12F, FontStyle.Italic);
-            guna2HtmlLabel3.Location = new Point(26, 423);
+            guna2HtmlLabel3.Location = new Point(30, 564);
+            guna2HtmlLabel3.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(117, 21);
+            guna2HtmlLabel3.Size = new Size(147, 26);
             guna2HtmlLabel3.TabIndex = 3;
             guna2HtmlLabel3.Text = "Số lượng tiêu hao";
             // 
@@ -213,9 +246,10 @@
             // 
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Calibri", 12F, FontStyle.Italic);
-            guna2HtmlLabel2.Location = new Point(190, 329);
+            guna2HtmlLabel2.Location = new Point(217, 439);
+            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(104, 21);
+            guna2HtmlLabel2.Size = new Size(129, 26);
             guna2HtmlLabel2.TabIndex = 2;
             guna2HtmlLabel2.Text = "Mã nguyên liệu";
             // 
@@ -223,9 +257,10 @@
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Calibri", 12F, FontStyle.Italic);
-            guna2HtmlLabel1.Location = new Point(26, 329);
+            guna2HtmlLabel1.Location = new Point(30, 439);
+            guna2HtmlLabel1.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(58, 21);
+            guna2HtmlLabel1.Size = new Size(71, 26);
             guna2HtmlLabel1.TabIndex = 1;
             guna2HtmlLabel1.Text = "Mã món";
             // 
@@ -250,7 +285,8 @@
             btnxoamon.ImageAutoCenter = true;
             btnxoamon.ImageExpand = new Point(0, 0);
             btnxoamon.ImageOffset = new Point(0, 0);
-            btnxoamon.Location = new Point(219, 579);
+            btnxoamon.Location = new Point(250, 772);
+            btnxoamon.Margin = new Padding(3, 4, 3, 4);
             btnxoamon.Name = "btnxoamon";
             btnxoamon.NormalBackground = Color.SteelBlue;
             btnxoamon.NormalForeColor = Color.White;
@@ -262,7 +298,7 @@
             btnxoamon.PressedImageTint = Color.White;
             btnxoamon.PressedOutline = Color.FromArgb(64, 128, 128, 128);
             btnxoamon.Rounding = new Padding(8);
-            btnxoamon.Size = new Size(178, 43);
+            btnxoamon.Size = new Size(203, 57);
             btnxoamon.TabIndex = 3;
             btnxoamon.TextAlignment = StringAlignment.Center;
             btnxoamon.TextOffset = new Point(0, 0);
@@ -289,7 +325,8 @@
             btnthemmon.ImageAutoCenter = true;
             btnthemmon.ImageExpand = new Point(0, 0);
             btnthemmon.ImageOffset = new Point(0, 0);
-            btnthemmon.Location = new Point(24, 579);
+            btnthemmon.Location = new Point(27, 772);
+            btnthemmon.Margin = new Padding(3, 4, 3, 4);
             btnthemmon.Name = "btnthemmon";
             btnthemmon.NormalBackground = Color.SteelBlue;
             btnthemmon.NormalForeColor = Color.White;
@@ -301,7 +338,7 @@
             btnthemmon.PressedImageTint = Color.White;
             btnthemmon.PressedOutline = Color.FromArgb(64, 128, 128, 128);
             btnthemmon.Rounding = new Padding(8);
-            btnthemmon.Size = new Size(180, 43);
+            btnthemmon.Size = new Size(206, 57);
             btnthemmon.TabIndex = 2;
             btnthemmon.TextAlignment = StringAlignment.Center;
             btnthemmon.TextOffset = new Point(0, 0);
@@ -314,9 +351,11 @@
             groupBox1.Controls.Add(btnThemNguyenLieu);
             groupBox1.Controls.Add(uiDataGridView1);
             groupBox1.Controls.Add(cuiPanel1);
-            groupBox1.Location = new Point(12, 12);
+            groupBox1.Location = new Point(14, 16);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1004, 681);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(1147, 908);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             // 
@@ -340,7 +379,8 @@
             btnXoaNguyenLieu.ImageAutoCenter = true;
             btnXoaNguyenLieu.ImageExpand = new Point(0, 0);
             btnXoaNguyenLieu.ImageOffset = new Point(0, 0);
-            btnXoaNguyenLieu.Location = new Point(437, 22);
+            btnXoaNguyenLieu.Location = new Point(499, 29);
+            btnXoaNguyenLieu.Margin = new Padding(3, 4, 3, 4);
             btnXoaNguyenLieu.Name = "btnXoaNguyenLieu";
             btnXoaNguyenLieu.NormalBackground = Color.SteelBlue;
             btnXoaNguyenLieu.NormalForeColor = Color.White;
@@ -352,7 +392,7 @@
             btnXoaNguyenLieu.PressedImageTint = Color.White;
             btnXoaNguyenLieu.PressedOutline = Color.FromArgb(64, 128, 128, 128);
             btnXoaNguyenLieu.Rounding = new Padding(8);
-            btnXoaNguyenLieu.Size = new Size(121, 36);
+            btnXoaNguyenLieu.Size = new Size(138, 48);
             btnXoaNguyenLieu.TabIndex = 15;
             btnXoaNguyenLieu.TextAlignment = StringAlignment.Center;
             btnXoaNguyenLieu.TextOffset = new Point(0, 0);
@@ -378,7 +418,8 @@
             btnThemNguyenLieu.ImageAutoCenter = true;
             btnThemNguyenLieu.ImageExpand = new Point(0, 0);
             btnThemNguyenLieu.ImageOffset = new Point(0, 0);
-            btnThemNguyenLieu.Location = new Point(310, 22);
+            btnThemNguyenLieu.Location = new Point(354, 29);
+            btnThemNguyenLieu.Margin = new Padding(3, 4, 3, 4);
             btnThemNguyenLieu.Name = "btnThemNguyenLieu";
             btnThemNguyenLieu.NormalBackground = Color.SteelBlue;
             btnThemNguyenLieu.NormalForeColor = Color.White;
@@ -390,11 +431,11 @@
             btnThemNguyenLieu.PressedImageTint = Color.White;
             btnThemNguyenLieu.PressedOutline = Color.FromArgb(64, 128, 128, 128);
             btnThemNguyenLieu.Rounding = new Padding(8);
-            btnThemNguyenLieu.Size = new Size(121, 36);
+            btnThemNguyenLieu.Size = new Size(138, 48);
             btnThemNguyenLieu.TabIndex = 14;
             btnThemNguyenLieu.TextAlignment = StringAlignment.Center;
             btnThemNguyenLieu.TextOffset = new Point(0, 0);
-            btnThemNguyenLieu.Click += btnXoaNL_Click;
+            btnThemNguyenLieu.Click += btnThemNL_Click;
             // 
             // uiDataGridView1
             // 
@@ -424,7 +465,8 @@
             uiDataGridView1.EnableHeadersVisualStyles = false;
             uiDataGridView1.Font = new Font("Microsoft Sans Serif", 12F);
             uiDataGridView1.GridColor = Color.FromArgb(80, 160, 255);
-            uiDataGridView1.Location = new Point(7, 77);
+            uiDataGridView1.Location = new Point(8, 103);
+            uiDataGridView1.Margin = new Padding(3, 4, 3, 4);
             uiDataGridView1.Name = "uiDataGridView1";
             uiDataGridView1.ReadOnly = true;
             dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -435,11 +477,12 @@
             dataGridViewCellStyle4.SelectionForeColor = Color.White;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
             uiDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            uiDataGridView1.RowHeadersWidth = 51;
             dataGridViewCellStyle5.BackColor = Color.White;
             dataGridViewCellStyle5.Font = new Font("Microsoft Sans Serif", 12F);
             uiDataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle5;
             uiDataGridView1.SelectedIndex = -1;
-            uiDataGridView1.Size = new Size(567, 598);
+            uiDataGridView1.Size = new Size(648, 797);
             uiDataGridView1.StripeOddColor = Color.FromArgb(235, 243, 255);
             uiDataGridView1.TabIndex = 4;
             uiDataGridView1.CellClick += uiDataGridView1_CellClick;
@@ -454,16 +497,18 @@
             cuiPanel1.Controls.Add(btnbothaydoi);
             cuiPanel1.Controls.Add(numSoLuongTieuHao);
             cuiPanel1.Controls.Add(txtmamon);
+            cuiPanel1.Controls.Add(txttenmon);
             cuiPanel1.Controls.Add(guna2HtmlLabel3);
             cuiPanel1.Controls.Add(guna2HtmlLabel2);
             cuiPanel1.Controls.Add(guna2HtmlLabel1);
-            cuiPanel1.Location = new Point(580, 21);
+            cuiPanel1.Location = new Point(663, 28);
+            cuiPanel1.Margin = new Padding(3, 4, 3, 4);
             cuiPanel1.Name = "cuiPanel1";
             cuiPanel1.OutlineThickness = 1F;
             cuiPanel1.PanelColor = Color.FromArgb(224, 224, 224);
             cuiPanel1.PanelOutlineColor = Color.White;
             cuiPanel1.Rounding = new Padding(8);
-            cuiPanel1.Size = new Size(418, 654);
+            cuiPanel1.Size = new Size(478, 872);
             cuiPanel1.TabIndex = 0;
             // 
             // cboNguyenLieu
@@ -477,10 +522,11 @@
             cboNguyenLieu.Font = new Font("Segoe UI", 10F);
             cboNguyenLieu.ForeColor = Color.FromArgb(68, 88, 112);
             cboNguyenLieu.ItemHeight = 30;
-            cboNguyenLieu.Location = new Point(190, 357);
+            cboNguyenLieu.Location = new Point(217, 476);
+            cboNguyenLieu.Margin = new Padding(3, 4, 3, 4);
             cboNguyenLieu.Name = "cboNguyenLieu";
             cboNguyenLieu.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            cboNguyenLieu.Size = new Size(207, 36);
+            cboNguyenLieu.Size = new Size(236, 36);
             cboNguyenLieu.TabIndex = 14;
             // 
             // dgvCongThuc
@@ -509,7 +555,8 @@
             dgvCongThuc.EnableHeadersVisualStyles = false;
             dgvCongThuc.Font = new Font("Microsoft Sans Serif", 12F);
             dgvCongThuc.GridColor = Color.FromArgb(80, 160, 255);
-            dgvCongThuc.Location = new Point(16, 14);
+            dgvCongThuc.Location = new Point(18, 19);
+            dgvCongThuc.Margin = new Padding(3, 4, 3, 4);
             dgvCongThuc.Name = "dgvCongThuc";
             dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle9.BackColor = Color.FromArgb(235, 243, 255);
@@ -519,20 +566,22 @@
             dataGridViewCellStyle9.SelectionForeColor = Color.White;
             dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
             dgvCongThuc.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dgvCongThuc.RowHeadersWidth = 51;
             dataGridViewCellStyle10.BackColor = Color.White;
             dataGridViewCellStyle10.Font = new Font("Microsoft Sans Serif", 12F);
             dgvCongThuc.RowsDefaultCellStyle = dataGridViewCellStyle10;
             dgvCongThuc.SelectedIndex = -1;
-            dgvCongThuc.Size = new Size(381, 292);
+            dgvCongThuc.Size = new Size(435, 389);
             dgvCongThuc.StripeOddColor = Color.FromArgb(235, 243, 255);
             dgvCongThuc.TabIndex = 13;
             // 
             // frmCongThuc
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1028, 705);
+            ClientSize = new Size(1175, 940);
             Controls.Add(groupBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmCongThuc";
             Text = "frmCongThuc";
             Load += frmCongThuc_Load;

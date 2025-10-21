@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dfEIJWc7bAc=",
+  "dgSpecHash": "P4WaoRItPMc=",
   "success": true,
-  "projectFilePath": "D:\\Work\\Project\\GUI_QuanLyQuanAN\\BLL_QLQA\\BLL_QLQA.csproj",
+  "projectFilePath": "D:\\Work\\Project\\QuanLyQuanAn\\BLL_QLQA\\BLL_QLQA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cua\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\Cua\\.nuget\\packages\\azure.identity\\1.13.2\\azure.identity.1.13.2.nupkg.sha512",

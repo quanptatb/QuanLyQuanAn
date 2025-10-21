@@ -16,12 +16,12 @@ namespace GUI_QuanLyQuanAN
         public frmkho()
         {
             InitializeComponent();
-            btnThem.Visible = false; // Ẩn nút Thêm
-            btnSua.Visible = false; // Ẩn nút Sửa
-            btnxuanguyenliau.Visible = false; // Ẩn nút Xóa nguyên liệu
-            btnThem.Enabled = false;
-            btnSua.Enabled = false;
-            btnxuanguyenliau.Enabled = false;
+            //btnThem.Visible = false; // Ẩn nút Thêm
+            //btnSua.Visible = false; // Ẩn nút Sửa
+            //btnxuanguyenliau.Visible = false; // Ẩn nút Xóa nguyên liệu
+            //btnThem.Enabled = false;
+            //btnSua.Enabled = false;
+            //btnxuanguyenliau.Enabled = false;
         }
         private void frmkho_Load(object sender, EventArgs e)
         {
@@ -72,7 +72,10 @@ namespace GUI_QuanLyQuanAN
             cboDonViTinh.Text = ""; // txtGiaNhap
             txtSoLuong.Text = ""; // txtSoLuongNhap
             cboNhaCungCap.SelectedIndex = -1; // cbonhacungcap
-
+            btnThem.Enabled = true;
+            btnSua.Enabled = false;
+            btnxuanguyenliau.Enabled = false;
+            btnlammoikho.Enabled = false;
             LoadGridViewNguyenLieu();
         }
 
@@ -94,6 +97,10 @@ namespace GUI_QuanLyQuanAN
                 // Lấy ID nhà cung cấp và gán vào combobox
                 int idNhaCungCap = Convert.ToInt32(row.Cells["ID_NhaCungCap"].Value);
                 cboNhaCungCap.SelectedValue = idNhaCungCap;
+                btnThem.Enabled = false;
+                btnSua.Enabled = true;
+                btnxuanguyenliau.Enabled = true;
+                btnlammoikho.Enabled = true;
             }
         }
 

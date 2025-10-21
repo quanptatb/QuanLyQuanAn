@@ -27,6 +27,7 @@ namespace GUI_QLQA
         public frmCongThuc()
         {
             InitializeComponent();
+            dgvCongThuc.CellDoubleClick += dgvCongThuc_CellDoubleClick;
         }
         private void frmCongThuc_Load(object sender, EventArgs e)
         {
@@ -64,13 +65,14 @@ namespace GUI_QLQA
 
         private void LoadGridViewCongThuc(string maMon)
         {
-            //Giả sử bạn đã thêm DataGridView 'dgvCongThuc'
-            dgvCongThuc.DataSource = busCongThuc.GetCongThucByMaMonAn(maMon);
-            dgvCongThuc.Columns["MaMon"].Visible = false;
-            dgvCongThuc.Columns["MaNguyenLieu"].HeaderText = "Mã NL";
-            dgvCongThuc.Columns["TenNguyenLieu"].HeaderText = "Tên Nguyên Liệu";
-            dgvCongThuc.Columns["SoLuongTieuHao"].HeaderText = "Số Lượng";
-            dgvCongThuc.Columns["DonViTinh"].HeaderText = "ĐVT";
+            var dt = busCongThuc.GetCongThucDataTableByMaMonAn(maMon);
+            dgvCongThuc.DataSource = dt;
+            if (dgvCongThuc.Columns["MaMon"] != null) dgvCongThuc.Columns["MaMon"].Visible = false;
+            if (dgvCongThuc.Columns["MaNguyenLieu"] != null) dgvCongThuc.Columns["MaNguyenLieu"].HeaderText = "Mã NL";
+            if (dgvCongThuc.Columns["TenNguyenLieu"] != null)
+                dgvCongThuc.Columns["TenNguyenLieu"].HeaderText = "Tên Nguyên Liệu";
+            if (dgvCongThuc.Columns["SoLuongTieuHao"] != null) dgvCongThuc.Columns["SoLuongTieuHao"].HeaderText = "Số Lượng";
+            if (dgvCongThuc.Columns["DonViTinh"] != null) dgvCongThuc.Columns["DonViTinh"].HeaderText = "ĐVT";
         }
 
         #endregion
@@ -129,27 +131,16 @@ namespace GUI_QLQA
 
         private void btnThemNL_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(currentMaMon) || cboNguyenLieu.Text == null || string.IsNullOrEmpty(numSoLuongTieuHao.Text))
+            if (string.IsNullOrEmpty(currentMaMon))
             {
-                MessageBox.Show("Vui lòng chọn món ăn, nguyên liệu và nhập số lượng tiêu hao.", "Thông báo");
+                MessageBox.Show("Vui lòng chọn món ăn trước.", "Thông báo");
                 return;
             }
 
-            CongThuc ct = new CongThuc
+            frmChonNguyenLieu frm = new frmChonNguyenLieu(currentMaMon);
+            if (frm.ShowDialog() == DialogResult.OK)
             {
-                MaMon = currentMaMon,
-                MaNguyenLieu = cboNguyenLieu.ToString(),
-                SoLuongTieuHao = Convert.ToDecimal(numSoLuongTieuHao),
-            };
-
-            if (busCongThuc.InsertCongThuc(ct))
-            {
-                MessageBox.Show("Thêm nguyên liệu vào công thức thành công.");
                 LoadGridViewCongThuc(currentMaMon);
-            }
-            else
-            {
-                MessageBox.Show("Thêm thất bại! Nguyên liệu có thể đã tồn tại trong công thức.");
             }
         }
 
@@ -169,6 +160,21 @@ namespace GUI_QLQA
                 }
             }
         }
+        private void dgvCongThuc_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (string.IsNullOrEmpty(currentMaMon))
+            {
+                MessageBox.Show("Vui lòng chọn món ăn trước.", "Thông báo");
+                return;
+            }
+
+            frmChonNguyenLieu frm = new frmChonNguyenLieu(currentMaMon);
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                LoadGridViewCongThuc(currentMaMon);
+            }
+        }
+
 
         #endregion
 
